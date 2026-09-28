@@ -1,0 +1,6 @@
+# Versions used to regenerate the published tables and property analyses.
+-r requirements.txt
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+Pillow==10.4.0

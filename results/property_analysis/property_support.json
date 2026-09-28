@@ -1,0 +1,142 @@
+[
+  {
+    "family": "dense_cnf",
+    "questions": 1000,
+    "pairs": 500,
+    "certificate_size": {
+      "min": 4.0,
+      "max": 8.0,
+      "unique": 5
+    },
+    "two_fact_predictability": {
+      "min": 0.5888671875,
+      "max": 0.7158203125,
+      "unique": 96
+    },
+    "total_influence": {
+      "min": 2.55078125,
+      "max": 3.3046875,
+      "unique": 120
+    }
+  },
+  {
+    "family": "majority_parity",
+    "questions": 1000,
+    "pairs": 500,
+    "certificate_size": {
+      "min": 6.0,
+      "max": 6.0,
+      "unique": 1
+    },
+    "two_fact_predictability": {
+      "min": 0.5703125,
+      "max": 0.5703125,
+      "unique": 1
+    },
+    "total_influence": {
+      "min": 3.75,
+      "max": 3.75,
+      "unique": 1
+    }
+  },
+  {
+    "family": "nested_mux",
+    "questions": 1500,
+    "pairs": 750,
+    "certificate_size": {
+      "min": 4.0,
+      "max": 5.0,
+      "unique": 2
+    },
+    "two_fact_predictability": {
+      "min": 0.625,
+      "max": 0.625,
+      "unique": 1
+    },
+    "total_influence": {
+      "min": 2.859375,
+      "max": 2.859375,
+      "unique": 1
+    }
+  },
+  {
+    "family": "parity_control",
+    "questions": 500,
+    "pairs": 250,
+    "certificate_size": {
+      "min": 10.0,
+      "max": 10.0,
+      "unique": 1
+    },
+    "two_fact_predictability": {
+      "min": 0.5,
+      "max": 0.5,
+      "unique": 1
+    },
+    "total_influence": {
+      "min": 10.0,
+      "max": 10.0,
+      "unique": 1
+    }
+  },
+  {
+    "family": "polarity_trap_composition",
+    "questions": 500,
+    "pairs": 250,
+    "certificate_size": {
+      "min": 7.0,
+      "max": 10.0,
+      "unique": 2
+    },
+    "two_fact_predictability": {
+      "min": 0.5,
+      "max": 0.5,
+      "unique": 1
+    },
+    "total_influence": {
+      "min": 6.5,
+      "max": 6.5,
+      "unique": 1
+    }
+  },
+  {
+    "family": "quadratic_parity",
+    "questions": 1000,
+    "pairs": 500,
+    "certificate_size": {
+      "min": 5.0,
+      "max": 10.0,
+      "unique": 6
+    },
+    "two_fact_predictability": {
+      "min": 0.53125,
+      "max": 0.53125,
+      "unique": 1
+    },
+    "total_influence": {
+      "min": 5.0,
+      "max": 5.0,
+      "unique": 1
+    }
+  },
+  {
+    "family": "sparse_cnf_control",
+    "questions": 500,
+    "pairs": 250,
+    "certificate_size": {
+      "min": 3.0,
+      "max": 6.0,
+      "unique": 4
+    },
+    "two_fact_predictability": {
+      "min": 0.681640625,
+      "max": 0.8349609375,
+      "unique": 94
+    },
+    "total_influence": {
+      "min": 1.765625,
+      "max": 2.4765625,
+      "unique": 101
+    }
+  }
+]

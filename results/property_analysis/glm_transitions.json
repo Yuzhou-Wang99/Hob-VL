@@ -1,0 +1,98 @@
+[
+  {
+    "format": "symbolic",
+    "certificate_band": "all",
+    "n": 6000,
+    "off_correct": 2915,
+    "on_correct": 3810,
+    "recovered": 1804,
+    "lost": 909,
+    "both_correct": 2006,
+    "neither_correct": 1281,
+    "change_pp": 14.916666666666668
+  },
+  {
+    "format": "symbolic",
+    "certificate_band": "3-4",
+    "n": 1772,
+    "off_correct": 810,
+    "on_correct": 1464,
+    "recovered": 806,
+    "lost": 152,
+    "both_correct": 658,
+    "neither_correct": 156,
+    "change_pp": 36.90744920993228
+  },
+  {
+    "format": "symbolic",
+    "certificate_band": "5-6",
+    "n": 2856,
+    "off_correct": 1400,
+    "on_correct": 1638,
+    "recovered": 734,
+    "lost": 496,
+    "both_correct": 904,
+    "neither_correct": 722,
+    "change_pp": 8.333333333333332
+  },
+  {
+    "format": "symbolic",
+    "certificate_band": "7-10",
+    "n": 1372,
+    "off_correct": 705,
+    "on_correct": 708,
+    "recovered": 264,
+    "lost": 261,
+    "both_correct": 444,
+    "neither_correct": 403,
+    "change_pp": 0.21865889212827616
+  },
+  {
+    "format": "natural-language",
+    "certificate_band": "all",
+    "n": 6000,
+    "off_correct": 3022,
+    "on_correct": 3072,
+    "recovered": 998,
+    "lost": 948,
+    "both_correct": 2074,
+    "neither_correct": 1980,
+    "change_pp": 0.8333333333333304
+  },
+  {
+    "format": "natural-language",
+    "certificate_band": "3-4",
+    "n": 1772,
+    "off_correct": 937,
+    "on_correct": 1102,
+    "recovered": 469,
+    "lost": 304,
+    "both_correct": 633,
+    "neither_correct": 366,
+    "change_pp": 9.311512415349888
+  },
+  {
+    "format": "natural-language",
+    "certificate_band": "5-6",
+    "n": 2856,
+    "off_correct": 1399,
+    "on_correct": 1354,
+    "recovered": 394,
+    "lost": 439,
+    "both_correct": 960,
+    "neither_correct": 1063,
+    "change_pp": -1.5756302521008403
+  },
+  {
+    "format": "natural-language",
+    "certificate_band": "7-10",
+    "n": 1372,
+    "off_correct": 686,
+    "on_correct": 616,
+    "recovered": 135,
+    "lost": 205,
+    "both_correct": 481,
+    "neither_correct": 551,
+    "change_pp": -5.1020408163265305
+  }
+]

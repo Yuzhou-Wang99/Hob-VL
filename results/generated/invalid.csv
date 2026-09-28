@@ -1,0 +1,10 @@
+configuration,symbolic,natural-language,identification-symbolic,identification,token_limit_total
+Luna,2,0,0,0,0
+Haiku 4.5,57,15,31,44,0
+Grok 4.3,0,0,13,12,0
+Gemini Flash-Lite,0,0,183,1,10
+DeepSeek Flash,72,3,317,247,81
+GLM FlashX (off),0,0,0,0,0
+Llama 4 Scout,0,0,0,0,0
+Qwen3-VL 8B,0,0,1,0,1
+GLM FlashX (on),47,536,144,100,826

@@ -1,0 +1,10 @@
+configuration,symbolic_yes_percent_all_items,nl_yes_percent_all_items
+Luna,74.98,89.10
+Haiku 4.5,1.35,13.62
+Grok 4.3,13.12,29.87
+Gemini Flash-Lite,81.23,80.08
+DeepSeek Flash,1.78,2.08
+GLM FlashX (off),78.32,98.60
+Llama 4 Scout,96.25,51.20
+Qwen3-VL 8B,26.00,63.27
+GLM FlashX (on),54.13,62.58

@@ -1,0 +1,10 @@
+configuration,boolean_both_correct_percent,boolean_symbolic_only_count,boolean_nl_only_count,identification_both_correct_percent,identification_symbolic_only_count,identification_nl_only_count
+Luna,35.52,812,789,27.20,85,128
+Haiku 4.5,42.73,398,449,27.20,50,158
+Grok 4.3,33.12,938,987,13.50,81,122
+Gemini Flash-Lite,35.75,771,766,21.50,56,196
+DeepSeek Flash,47.53,125,128,8.30,82,160
+GLM FlashX (off),38.12,628,735,24.10,72,109
+Llama 4 Scout,26.67,1399,1336,22.80,50,105
+Qwen3-VL 8B,24.87,1542,1530,19.40,36,92
+GLM FlashX (on),35.62,1673,935,63.20,105,89

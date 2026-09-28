@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.venv/
+/evals/runs/
+/evals/comparisons/
+/evals/evidence/offline_verification.*

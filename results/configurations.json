@@ -1,0 +1,650 @@
+{
+  "scope": "Nine saved full-run configurations; metadata only; no new inference.",
+  "notes": [
+    "Requested identifiers do not independently establish immutable backend snapshots.",
+    "Creation timestamps denote run-manifest initialization, not request/retry completion dates.",
+    "Provider-default numeric sampling values and per-request wall-clock timestamps were not retained.",
+    "Qwen workspace-specific host prefix is replaced with WORKSPACE for anonymous reporting.",
+    "No API credentials, account names or local filesystem paths are included.",
+    "Generation fields were reconstructed offline from saved configurations using the local request builder."
+  ],
+  "provider_code_sha256": "370b37a1b3b1fc2053f2e86c212023c924687fe104fcdc4adcacda4019f20fdf",
+  "configurations": [
+    {
+      "configuration": "Luna",
+      "provider": "OpenAI",
+      "requested_model": "gpt-5.6-luna",
+      "requested_mode": "none",
+      "api_root": "https://api.openai.com/v1",
+      "workspace_identifier_redacted": false,
+      "request_route": "/responses",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_output_tokens": 2048,
+        "store": false,
+        "reasoning": {
+          "effort": "none"
+        }
+      },
+      "image_detail_sent": "high",
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-14T00:59:52.446639+00:00",
+        "natural-language": "2026-09-14T03:17:50.136797+00:00",
+        "identification-symbolic": "2026-09-14T05:29:59.095560+00:00",
+        "identification": "2026-09-14T05:58:24.659162+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "original",
+        "natural-language": "original",
+        "identification-symbolic": "original",
+        "identification": "original"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-v1",
+        "natural-language": "yes-no-full-response-v1",
+        "identification-symbolic": "candidate-label-full-response-v1",
+        "identification": "candidate-label-full-response-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "6db4150650e17612707271587ac79d0fb40e01790478e8597c0b0dd1d2fc06e3",
+        "natural-language": "a7ab32e4ed2f3cd7fc1c91b72d3665258f7a205166b38c590ebe09a66bee6e0a",
+        "identification-symbolic": "84d6c8aeb877ef0dc068bd86c9ea12b99a9a0d440df806b4025e1e17f329c6a6",
+        "identification": "9efe8f7a8fb7fe26376cf751c53a692526137ea8bfc8ae9c53607a537307a739"
+      }
+    },
+    {
+      "configuration": "Haiku 4.5",
+      "provider": "Anthropic",
+      "requested_model": "claude-haiku-4-5-20251001",
+      "requested_mode": "disabled",
+      "api_root": "https://api.anthropic.com/v1",
+      "workspace_identifier_redacted": false,
+      "request_route": "/messages",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {
+        "anthropic-version": "2023-06-01"
+      },
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-14T19:19:45.007542+00:00",
+        "natural-language": "2026-09-14T20:47:38.781887+00:00",
+        "identification-symbolic": "2026-09-14T22:17:41.235160+00:00",
+        "identification": "2026-09-14T22:35:46.112657+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "c26b6a082a6ce69afcf8e691156ce8e010a4521e1f0e0631cbc8ada5041b0c1a",
+        "natural-language": "54c905ea19f66195fe4254fa657e72719eabdf158821e4a64172b0c3ab893ed4",
+        "identification-symbolic": "a0e2ec04c9591ddaf4e9cd26b8e133f425cfaca902f33cb5e9a6b44975b4e900",
+        "identification": "87019247ec8a53cb407e985abb05043a4c88222cd0ae2b1b97a4e6cb05f3b813"
+      }
+    },
+    {
+      "configuration": "Grok 4.3",
+      "provider": "xAI",
+      "requested_model": "grok-4.3",
+      "requested_mode": "none",
+      "api_root": "https://api.x.ai/v1",
+      "workspace_identifier_redacted": false,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048,
+        "reasoning_effort": "none"
+      },
+      "image_detail_sent": "high",
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-14T16:06:49.796570+00:00",
+        "natural-language": "2026-09-14T19:58:17.355037+00:00",
+        "identification-symbolic": "2026-09-14T22:05:26.699238+00:00",
+        "identification": "2026-09-14T22:34:28.170579+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "original",
+        "identification": "original"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "ef4584526166992ec9508bfd2bf948748df27acd39f495588df650b6481becc2",
+        "natural-language": "50d6cf5bf015a51456f99dcc8d075ca73cc37699f79197fadc85d63437d4e845",
+        "identification-symbolic": "dd9eee44fce49268d8b58d618d8cbc1a727f6d165028c443907322527c4adb22",
+        "identification": "1f64339360ddfb09ebe2b2471798ab735caa1cc7e507286630c16c9b2c3f7929"
+      }
+    },
+    {
+      "configuration": "Gemini Flash-Lite",
+      "provider": "Google",
+      "requested_model": "gemini-3.5-flash-lite",
+      "requested_mode": "minimal",
+      "api_root": "https://generativelanguage.googleapis.com/v1beta",
+      "workspace_identifier_redacted": false,
+      "request_route": "/models/{requested_model}:generateContent",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "generationConfig": {
+          "maxOutputTokens": 2048,
+          "thinkingConfig": {
+            "thinkingLevel": "minimal"
+          }
+        }
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-14T18:47:58.547018+00:00",
+        "natural-language": "2026-09-14T21:20:03.546829+00:00",
+        "identification-symbolic": "2026-09-15T00:09:09.109224+00:00",
+        "identification": "2026-09-15T00:45:42.975708+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "original",
+        "identification": "original"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "e6cb77bad6af0821b03abec916f75a73c14d175df080d11c52f99e823087220b",
+        "natural-language": "d0d6ae041937c7f2f5557a228f69b3973318f35fac3525c0bdcc024d82580526",
+        "identification-symbolic": "ef3fb298715f0a600f7cc2b36ba6eff962ee0892fc307c7256175945af055b85",
+        "identification": "fbb6f33f124fa04324462a59556b4564abc23442ae22ea72c8febb299f3410b2"
+      }
+    },
+    {
+      "configuration": "DeepSeek Flash",
+      "provider": "DeepSeek",
+      "requested_model": "deepseek-flash",
+      "requested_mode": "disabled",
+      "api_root": "https://api.deepseek.com",
+      "workspace_identifier_redacted": false,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "image_detail_sent": "high",
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-15T02:38:50.758675+00:00",
+        "natural-language": "2026-09-15T05:03:21.602467+00:00",
+        "identification-symbolic": "2026-09-15T07:44:38.184772+00:00",
+        "identification": "2026-09-15T15:01:09.664144+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "c936d5536103bfc8952b2b3f47bd0eceec76d48bc512f4071aca31a42623bf36",
+        "natural-language": "f9e03ab6d0c1ec24c31e3d5b55664ca8f11307fc3501b30e9f1801100a6e93cb",
+        "identification-symbolic": "45a60438788b17f7ce180a031e2fda275f0ed123d6a1125b0f059462422e432f",
+        "identification": "9f86403ea110526f54f1036e68a0e03405008c867afcb950c29bd83a9a561192"
+      }
+    },
+    {
+      "configuration": "GLM FlashX (off)",
+      "provider": "Z.ai",
+      "requested_model": "glm-4.6v-flashx",
+      "requested_mode": "disabled",
+      "api_root": "https://api.z.ai/api/paas/v4",
+      "workspace_identifier_redacted": false,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-15T01:32:48.647589+00:00",
+        "natural-language": "2026-09-15T04:39:18.180038+00:00",
+        "identification-symbolic": "2026-09-15T09:00:27.896066+00:00",
+        "identification": "2026-09-15T09:39:49.780903+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "6e8daff0b5d82b8a324c2b559b1d1252897510fb70e80893e4044139392fd3eb",
+        "natural-language": "439dcfbf742d22edc7d8cd12d80e1fde1f34cc4d14837b9c417fd498941b81d3",
+        "identification-symbolic": "224c00f793f7a180fe030b580c9c8f8d537ba20a98d4b3f16e8a1dc035119ff0",
+        "identification": "25e26465aea779aad40b4f3c98fcf1d1d2a2d90493f9a95da372666180c8d623"
+      }
+    },
+    {
+      "configuration": "Llama 4 Scout",
+      "provider": "DeepInfra",
+      "requested_model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "requested_mode": "Instruct",
+      "api_root": "https://api.deepinfra.com/v1/openai",
+      "workspace_identifier_redacted": false,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-15T04:20:54.834389+00:00",
+        "natural-language": "2026-09-15T06:05:10.809542+00:00",
+        "identification-symbolic": "2026-09-15T07:46:34.070463+00:00",
+        "identification": "2026-09-15T08:12:11.277382+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "b0820fe7f683adcd6c8b0f4a0472e04c8537ab77aa6754f56df3d93ae2348c2a",
+        "natural-language": "0303ada32f4de3d3acd8dab1660a0f61754679cfdd2949278f55aeea39c9647a",
+        "identification-symbolic": "f35c3167496a295b9dd2412736d04adf22d7ccfda1c12eef25f97ab1057de7af",
+        "identification": "ba44d7c8b09e0ca773ed94950e97679c86234b9b3dfe5bf1c27a63e3b76979b3"
+      }
+    },
+    {
+      "configuration": "Qwen3-VL 8B",
+      "provider": "Alibaba",
+      "requested_model": "qwen3-vl-8b-instruct",
+      "requested_mode": "Instruct",
+      "api_root": "https://WORKSPACE.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+      "workspace_identifier_redacted": true,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 2048
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 2048,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-15T00:28:58.240825+00:00",
+        "natural-language": "2026-09-15T05:02:22.140279+00:00",
+        "identification-symbolic": "2026-09-15T22:33:09.095897+00:00",
+        "identification": "2026-09-16T00:21:41.323733+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "1922e2e288797b131bdd27bd2f0ea6ce8973c714fae0e0581230996c8a965145",
+        "natural-language": "3ec44e49715a92b02a378e99c0e7dbb8b6f40d5fc237fca22b3babd07e3df4e4",
+        "identification-symbolic": "4b50df8794dc48a93f4d05baec55e401798cf09d8696013ab85e52db57ab675c",
+        "identification": "a9d73f9ac239ed44b4087b55011c0d926bbde0bac60be399de4de9696b8b7c96"
+      }
+    },
+    {
+      "configuration": "GLM FlashX (on)",
+      "provider": "Z.ai",
+      "requested_model": "glm-4.6v-flashx",
+      "requested_mode": "enabled",
+      "api_root": "https://api.z.ai/api/paas/v4",
+      "workspace_identifier_redacted": false,
+      "request_route": "/chat/completions",
+      "http_method": "POST",
+      "generation_request_fields": {
+        "max_tokens": 4096,
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "image_detail_sent": null,
+      "temperature": "not explicitly set",
+      "top_p": "not explicitly set",
+      "top_k": "not explicitly set",
+      "sampling_seed": "not explicitly set",
+      "max_output_tokens": 4096,
+      "transport_timeout_seconds": 120,
+      "provider_adapter_automatic_retries": 0,
+      "non_authentication_headers": {},
+      "run_manifest_creation_utc": {
+        "symbolic": "2026-09-15T20:05:07.918596+00:00",
+        "natural-language": "2026-09-17T05:16:39.513096+00:00",
+        "identification-symbolic": "2026-09-18T20:52:39.855472+00:00",
+        "identification": "2026-09-19T02:42:40.431911+00:00"
+      },
+      "prompt_policies": {
+        "symbolic": "boolean-one-word-v1",
+        "natural-language": "boolean-one-word-v1",
+        "identification-symbolic": "answer-only-v1",
+        "identification": "answer-only-v1"
+      },
+      "parsers": {
+        "symbolic": "yes-no-full-response-bold-v1",
+        "natural-language": "yes-no-full-response-bold-v1",
+        "identification-symbolic": "candidate-label-full-response-bold-v1",
+        "identification": "candidate-label-full-response-bold-v1"
+      },
+      "image_preparation": {
+        "symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "natural-language": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification-symbolic": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        },
+        "identification": {
+          "max_image_edge": 2048,
+          "max_bytes": 4194304,
+          "pillow_version": "10.4.0"
+        }
+      },
+      "source_manifest_sha256": {
+        "symbolic": "9591ab7b9955dab614b4de606ed97ea4fe4cb0537cfc25518f0325272cd55591",
+        "natural-language": "27039a61ef9f0b3a58e1e791d10eea2a31aba0766b459f4621a808feeff414d1",
+        "identification-symbolic": "425cdf464a6993b8110fe51c15695c804fd14e57c92cbcf8ad405792ca1c0613",
+        "identification": "39f70013a4e71123538d88d1f627c31e1c01ee440050f09e1ab163eca2f593db"
+      }
+    }
+  ]
+}

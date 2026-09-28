@@ -1,0 +1,10 @@
+configuration,symbolic,natural-language,identification-symbolic,identification
+Luna,49.05,48.67,35.70,40.00
+Haiku 4.5,49.37,50.22,32.20,43.00
+Grok 4.3,48.75,49.57,21.60,25.70
+Gemini Flash-Lite,48.60,48.52,27.10,41.10
+DeepSeek Flash,49.62,49.67,16.50,24.30
+GLM FlashX (off),48.58,50.37,31.30,35.00
+Llama 4 Scout,49.98,48.93,27.80,33.30
+Qwen3-VL 8B,50.57,50.37,23.00,28.60
+GLM FlashX (on),63.50,51.20,73.70,72.10

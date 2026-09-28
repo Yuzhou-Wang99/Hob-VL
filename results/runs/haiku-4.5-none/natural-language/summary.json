@@ -1,0 +1,8546 @@
+{
+  "mode": "execute",
+  "model": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "base_url": "https://api.anthropic.com/v1",
+    "max_output_tokens": 2048,
+    "temperature": null,
+    "timeout": 120,
+    "retries": 0,
+    "reasoning_effort": "none",
+    "image_detail": null
+  },
+  "format": "natural-language",
+  "prompt_policy": "boolean-one-word-v1",
+  "output_dir": "results/runs/haiku-4.5-none/natural-language",
+  "fingerprint": "61a7e2e73e414b9d9f17176ae5f5bcbd8eb66534cac0ca6d555d5f70a074e78a",
+  "planned_rows": 6000,
+  "saved_rows": 6000,
+  "attempted_rows": 6000,
+  "settled_rows": 6000,
+  "pending_rows": 0,
+  "pending_ids": [],
+  "superseded_error_rows": 0,
+  "remaining_rows": 0,
+  "in_flight_interrupted": false,
+  "complete": true,
+  "all_attempted": true,
+  "stopped_on_error": false,
+  "stop_reason": null,
+  "execution_policy": {
+    "continue_on_error": true,
+    "max_consecutive_errors": 3,
+    "retry_pending": false
+  },
+  "deferred_pending_ids_this_invocation": [],
+  "continued_errors_this_invocation": 0,
+  "provider_calls_this_invocation": 6000,
+  "elapsed_seconds_this_invocation": 5394.5028,
+  "overall": {
+    "total": 6000,
+    "correct": 3013,
+    "accuracy": 0.5021666666666667,
+    "invalid": 15,
+    "errors": 0,
+    "valid": 5985
+  },
+  "by_track": {
+    "photo": {
+      "total": 2000,
+      "correct": 1009,
+      "accuracy": 0.5045,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 2000
+    },
+    "synthetic": {
+      "total": 4000,
+      "correct": 2004,
+      "accuracy": 0.501,
+      "invalid": 15,
+      "errors": 0,
+      "valid": 3985
+    }
+  },
+  "by_variant": {
+    "base": {
+      "total": 3000,
+      "correct": 1520,
+      "accuracy": 0.5066666666666667,
+      "invalid": 9,
+      "errors": 0,
+      "valid": 2991
+    },
+    "de_morgan": {
+      "total": 3000,
+      "correct": 1493,
+      "accuracy": 0.49766666666666665,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 2994
+    }
+  },
+  "by_cohort": {
+    "dense_cnf": {
+      "total": 1000,
+      "correct": 540,
+      "accuracy": 0.54,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 1000
+    },
+    "majority_parity": {
+      "total": 1000,
+      "correct": 511,
+      "accuracy": 0.511,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 1000
+    },
+    "nested_mux": {
+      "total": 1500,
+      "correct": 723,
+      "accuracy": 0.482,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 1495
+    },
+    "parity_control": {
+      "total": 500,
+      "correct": 258,
+      "accuracy": 0.516,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 500
+    },
+    "polarity_trap_composition": {
+      "total": 500,
+      "correct": 231,
+      "accuracy": 0.462,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 500
+    },
+    "quadratic_parity": {
+      "total": 1000,
+      "correct": 502,
+      "accuracy": 0.502,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 999
+    },
+    "sparse_cnf_control": {
+      "total": 500,
+      "correct": 248,
+      "accuracy": 0.496,
+      "invalid": 9,
+      "errors": 0,
+      "valid": 491
+    }
+  },
+  "by_target": {
+    "No": {
+      "total": 3000,
+      "correct": 2594,
+      "accuracy": 0.8646666666666667,
+      "invalid": 8,
+      "errors": 0,
+      "valid": 2992
+    },
+    "Yes": {
+      "total": 3000,
+      "correct": 419,
+      "accuracy": 0.13966666666666666,
+      "invalid": 7,
+      "errors": 0,
+      "valid": 2993
+    }
+  },
+  "by_scene_family": {
+    "barbecue_meal_paper": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "bathroom_with_open_vanity": {
+      "total": 44,
+      "correct": 23,
+      "accuracy": 0.5227272727272727,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "boat_turquoise_seating": {
+      "total": 44,
+      "correct": 20,
+      "accuracy": 0.45454545454545453,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "bottle_accessories_broken_spoon": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "bowl_with_banana_berries_and_chocolate": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "box_five_pastries": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "cafe_mug_green_drink": {
+      "total": 88,
+      "correct": 45,
+      "accuracy": 0.5113636363636364,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 88
+    },
+    "cat_and_bouquet_on_table": {
+      "total": 44,
+      "correct": 29,
+      "accuracy": 0.6590909090909091,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "cat_puzzle_and_vase": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "christmas_room": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "decorated_gingerbread_house": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "deer_parking": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "desk_building_models": {
+      "total": 42,
+      "correct": 22,
+      "accuracy": 0.5238095238095238,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "desk_orange_mug": {
+      "total": 44,
+      "correct": 17,
+      "accuracy": 0.38636363636363635,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "desk_red_mug": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "foil_sweets": {
+      "total": 44,
+      "correct": 26,
+      "accuracy": 0.5909090909090909,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "food_shop_trays": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "fountain_and_winged_statue": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "gallery_two_rows_prints": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "gorilla_rock": {
+      "total": 44,
+      "correct": 22,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "grazing_horned_animals": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "illuminated_ship": {
+      "total": 44,
+      "correct": 24,
+      "accuracy": 0.5454545454545454,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "lounge_food_table": {
+      "total": 42,
+      "correct": 19,
+      "accuracy": 0.4523809523809524,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "meal_tray_three_dishes": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "meal_tray_with_cake_salad_and_soup": {
+      "total": 44,
+      "correct": 24,
+      "accuracy": 0.5454545454545454,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "museum_skeleton_displays": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "museum_statue_devices": {
+      "total": 44,
+      "correct": 17,
+      "accuracy": 0.38636363636363635,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "night_elevated_walkway": {
+      "total": 42,
+      "correct": 22,
+      "accuracy": 0.5238095238095238,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "night_scooter_courtyard": {
+      "total": 42,
+      "correct": 20,
+      "accuracy": 0.47619047619047616,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "night_waterfront_steps": {
+      "total": 42,
+      "correct": 23,
+      "accuracy": 0.5476190476190477,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_food_packages": {
+      "total": 42,
+      "correct": 21,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_model_display_shelves": {
+      "total": 42,
+      "correct": 16,
+      "accuracy": 0.38095238095238093,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_noticeboard": {
+      "total": 42,
+      "correct": 19,
+      "accuracy": 0.4523809523809524,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_partition_shelf": {
+      "total": 42,
+      "correct": 18,
+      "accuracy": 0.42857142857142855,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_robot_display": {
+      "total": 42,
+      "correct": 20,
+      "accuracy": 0.47619047619047616,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "office_with_moving_boxes": {
+      "total": 44,
+      "correct": 23,
+      "accuracy": 0.5227272727272727,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "palms_flowers_and_orange_car": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "recycling_map_room": {
+      "total": 42,
+      "correct": 22,
+      "accuracy": 0.5238095238095238,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "sloped_street_with_signs_and_parked_cars": {
+      "total": 44,
+      "correct": 27,
+      "accuracy": 0.6136363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "synthetic_0000": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0001": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0002": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0003": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0004": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0005": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0006": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0007": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0008": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0009": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0010": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0011": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0012": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0013": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0014": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0015": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0016": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0017": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0018": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0019": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0020": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0021": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0022": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0023": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0024": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0025": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0026": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0027": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0028": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0029": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0030": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0031": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0032": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0033": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0034": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0035": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0036": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0037": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0038": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0039": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0040": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0041": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0042": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0043": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0044": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0045": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0046": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0047": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0048": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0049": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0050": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0051": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0052": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0053": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0054": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0055": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0056": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0057": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0058": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0059": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0060": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0061": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0062": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0063": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0064": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0065": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0066": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0067": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0068": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0069": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0070": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0071": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0072": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0073": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0074": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0075": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0076": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0077": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0078": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0079": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0080": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0081": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0082": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0083": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0084": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0085": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0086": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0087": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0088": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0089": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0090": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0091": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0092": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0093": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0094": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0095": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0096": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0097": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0098": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0099": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0100": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0101": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0102": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0103": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0104": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0105": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0106": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0107": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0108": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0109": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0110": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0111": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0112": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0113": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0114": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0115": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0116": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0117": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0118": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0119": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0120": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0121": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0122": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0123": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0124": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0125": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0126": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0127": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0128": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0129": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0130": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0131": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0132": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0133": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0134": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0135": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0136": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0137": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0138": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0139": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0140": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0141": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0142": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0143": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0144": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0145": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0146": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0147": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0148": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0149": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0150": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0151": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0152": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0153": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0154": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0155": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0156": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0157": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0158": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0159": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0160": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0161": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0162": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0163": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0164": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0165": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0166": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0167": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0168": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0169": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0170": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0171": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0172": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0173": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0174": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0175": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0176": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0177": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0178": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0179": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0180": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0181": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0182": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0183": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0184": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0185": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0186": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0187": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0188": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0189": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0190": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0191": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0192": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0193": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0194": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0195": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0196": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0197": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0198": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0199": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0200": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0201": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0202": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0203": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0204": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0205": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0206": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 2,
+      "errors": 0,
+      "valid": 2
+    },
+    "synthetic_0207": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0208": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0209": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0210": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0211": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0212": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0213": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0214": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0215": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0216": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0217": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0218": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0219": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0220": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0221": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0222": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0223": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0224": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0225": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0226": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0227": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0228": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0229": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0230": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0231": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0232": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0233": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0234": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0235": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0236": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0237": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0238": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0239": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0240": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0241": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0242": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0243": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0244": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0245": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0246": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0247": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0248": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0249": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0250": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0251": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0252": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0253": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0254": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0255": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0256": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0257": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0258": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0259": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0260": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0261": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0262": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0263": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0264": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0265": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0266": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0267": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0268": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0269": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0270": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0271": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0272": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0273": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0274": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0275": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0276": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0277": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0278": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0279": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0280": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0281": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0282": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0283": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0284": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0285": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0286": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0287": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0288": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0289": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0290": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0291": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0292": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0293": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0294": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0295": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0296": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0297": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0298": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0299": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0300": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0301": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0302": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0303": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0304": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0305": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0306": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0307": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0308": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0309": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0310": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0311": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0312": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0313": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0314": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0315": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0316": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0317": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0318": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0319": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0320": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0321": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0322": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0323": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0324": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0325": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0326": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0327": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0328": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0329": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0330": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0331": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0332": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0333": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0334": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0335": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0336": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0337": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0338": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0339": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0340": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0341": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0342": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0343": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0344": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0345": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0346": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0347": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0348": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0349": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0350": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0351": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0352": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0353": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0354": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0355": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0356": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0357": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0358": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0359": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0360": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0361": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0362": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0363": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0364": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0365": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0366": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0367": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0368": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0369": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0370": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0371": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0372": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0373": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0374": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0375": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0376": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0377": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0378": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0379": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0380": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0381": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0382": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0383": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0384": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0385": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0386": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0387": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0388": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0389": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0390": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0391": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0392": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0393": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0394": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0395": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0396": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0397": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0398": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0399": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0400": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0401": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0402": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0403": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0404": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0405": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0406": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0407": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0408": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0409": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0410": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0411": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0412": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0413": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0414": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0415": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0416": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0417": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0418": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0419": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0420": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0421": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0422": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0423": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0424": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0425": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0426": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0427": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0428": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0429": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0430": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0431": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0432": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0433": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0434": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0435": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0436": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0437": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0438": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0439": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0440": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0441": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0442": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0443": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0444": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0445": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0446": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0447": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0448": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0449": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0450": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0451": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0452": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0453": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0454": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0455": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0456": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0457": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0458": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0459": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0460": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0461": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0462": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0463": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0464": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0465": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0466": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0467": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0468": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0469": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0470": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0471": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0472": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0473": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0474": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0475": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0476": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0477": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0478": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0479": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0480": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0481": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0482": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0483": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0484": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0485": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0486": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0487": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0488": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0489": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0490": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0491": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0492": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0493": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0494": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0495": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0496": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0497": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0498": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0499": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0500": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0501": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0502": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0503": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0504": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0505": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0506": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0507": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0508": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0509": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0510": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0511": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0512": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0513": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0514": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0515": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0516": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0517": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0518": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0519": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0520": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0521": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0522": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0523": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0524": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0525": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0526": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0527": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0528": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0529": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0530": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0531": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0532": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0533": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0534": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0535": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0536": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0537": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0538": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0539": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0540": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0541": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0542": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0543": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0544": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0545": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0546": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0547": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0548": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0549": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0550": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0551": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0552": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0553": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0554": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0555": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0556": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0557": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0558": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0559": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0560": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0561": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0562": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0563": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0564": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0565": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0566": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0567": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0568": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0569": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0570": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0571": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0572": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0573": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0574": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0575": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0576": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0577": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0578": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0579": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0580": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0581": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0582": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0583": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0584": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0585": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0586": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0587": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0588": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0589": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0590": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0591": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0592": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0593": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0594": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0595": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0596": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0597": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0598": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0599": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0600": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0601": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0602": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0603": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0604": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0605": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0606": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0607": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0608": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0609": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0610": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0611": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0612": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0613": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0614": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0615": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0616": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0617": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0618": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0619": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0620": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0621": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0622": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0623": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0624": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0625": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0626": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0627": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0628": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0629": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0630": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0631": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0632": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0633": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0634": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0635": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0636": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0637": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0638": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0639": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0640": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0641": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0642": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0643": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0644": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0645": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0646": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0647": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0648": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0649": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0650": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0651": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0652": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0653": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0654": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0655": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0656": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0657": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0658": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0659": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0660": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0661": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0662": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0663": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0664": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0665": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0666": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0667": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0668": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0669": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0670": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0671": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0672": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0673": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0674": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0675": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0676": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0677": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0678": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0679": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0680": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0681": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0682": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0683": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0684": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0685": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0686": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0687": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0688": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0689": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0690": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0691": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0692": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0693": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0694": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0695": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0696": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0697": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0698": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0699": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0700": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0701": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0702": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0703": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0704": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0705": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0706": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0707": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0708": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0709": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0710": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0711": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0712": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0713": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0714": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0715": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0716": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0717": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0718": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0719": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0720": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0721": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0722": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0723": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0724": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0725": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0726": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0727": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0728": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0729": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0730": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0731": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0732": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0733": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0734": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0735": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0736": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0737": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0738": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0739": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0740": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0741": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0742": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0743": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0744": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0745": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0746": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0747": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0748": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0749": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0750": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0751": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0752": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0753": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0754": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0755": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0756": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0757": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0758": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0759": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0760": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0761": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0762": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0763": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0764": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0765": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0766": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0767": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0768": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0769": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0770": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0771": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0772": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0773": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0774": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0775": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0776": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0777": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0778": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0779": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0780": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0781": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0782": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0783": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0784": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0785": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0786": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0787": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0788": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0789": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0790": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0791": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0792": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0793": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0794": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0795": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0796": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0797": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0798": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0799": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0800": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0801": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0802": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0803": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0804": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0805": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0806": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0807": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0808": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0809": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0810": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0811": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0812": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0813": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0814": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0815": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0816": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0817": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0818": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0819": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0820": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0821": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0822": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0823": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0824": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0825": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0826": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0827": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0828": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0829": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0830": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0831": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0832": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0833": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0834": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0835": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0836": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0837": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0838": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0839": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0840": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0841": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0842": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0843": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0844": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0845": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0846": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0847": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0848": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0849": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0850": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0851": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0852": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0853": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0854": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0855": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0856": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0857": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0858": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0859": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0860": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0861": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0862": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0863": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0864": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0865": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0866": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0867": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0868": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0869": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0870": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0871": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0872": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0873": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0874": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0875": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0876": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0877": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0878": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0879": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0880": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0881": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0882": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0883": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0884": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0885": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0886": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0887": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0888": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0889": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0890": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0891": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0892": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0893": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0894": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0895": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0896": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0897": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0898": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0899": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0900": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0901": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0902": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0903": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0904": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0905": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0906": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0907": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0908": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0909": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0910": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0911": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0912": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0913": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0914": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0915": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0916": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0917": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0918": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0919": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0920": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0921": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0922": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0923": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0924": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0925": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0926": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0927": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0928": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0929": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0930": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0931": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0932": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0933": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0934": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0935": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0936": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0937": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0938": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0939": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0940": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0941": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0942": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0943": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0944": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0945": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0946": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0947": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0948": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0949": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0950": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0951": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0952": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0953": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0954": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0955": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0956": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0957": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0958": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0959": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0960": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0961": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0962": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0963": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0964": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0965": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0966": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0967": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0968": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0969": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0970": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0971": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0972": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0973": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0974": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0975": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0976": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0977": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0978": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0979": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0980": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0981": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0982": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0983": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0984": {
+      "total": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0985": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0986": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0987": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0988": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0989": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0990": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0991": {
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0992": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0993": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0994": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0995": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0996": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0997": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 3
+    },
+    "synthetic_0998": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "synthetic_0999": {
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 4
+    },
+    "terrace_dog_pots": {
+      "total": 44,
+      "correct": 23,
+      "accuracy": 0.5227272727272727,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "three_desserts": {
+      "total": 42,
+      "correct": 20,
+      "accuracy": 0.47619047619047616,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 42
+    },
+    "three_tents_below_wooded_cliff": {
+      "total": 44,
+      "correct": 21,
+      "accuracy": 0.4772727272727273,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "two_desserts_on_plates": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "waterfall_and_cliff_path": {
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    },
+    "waterfront_path": {
+      "total": 44,
+      "correct": 18,
+      "accuracy": 0.4090909090909091,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 44
+    }
+  },
+  "equivalent_pairs": {
+    "complete_pairs": 3000,
+    "both_valid": 2985,
+    "agree": 2659,
+    "agreement": 0.8863333333333333,
+    "both_correct": 1340,
+    "both_correct_accuracy": 0.44666666666666666,
+    "excluded_incomplete_or_nonpair_families": 0,
+    "denominator": "complete base/de_morgan pairs; invalid/error answers never agree"
+  },
+  "usage": {
+    "input_tokens": 21965460,
+    "output_tokens": 31248,
+    "total_tokens": 21996708
+  },
+  "parser": "yes-no-full-response-bold-v1",
+  "billing": {
+    "reported_cost_usd": null,
+    "saved_attempts_with_cost": 0,
+    "saved_attempts_without_cost": 6000,
+    "note": "Provider-reported subtotal for saved attempts only. Missing amounts and requests without a saved response are not included; missing does not mean free."
+  },
+  "note": "Accuracy reflects the latest attempt per row; invalid/error states count as incorrect. Error-state and in-flight rows stay pending for resume. Observations share scenes and equivalent pairs; they are not independent."
+}

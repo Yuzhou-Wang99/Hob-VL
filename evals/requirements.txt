@@ -1,0 +1,2 @@
+# No provider SDK is needed. Pillow verifies and prepares the actual image bytes.
+Pillow>=10.0

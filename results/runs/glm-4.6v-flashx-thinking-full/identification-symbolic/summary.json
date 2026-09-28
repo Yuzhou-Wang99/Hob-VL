@@ -1,0 +1,606 @@
+{
+  "mode": "execute",
+  "model": {
+    "provider": "zai",
+    "model": "glm-4.6v-flashx",
+    "api_key_env": "ZAI_API_KEY",
+    "base_url": "https://api.z.ai/api/paas/v4",
+    "max_output_tokens": 4096,
+    "temperature": null,
+    "timeout": 120,
+    "retries": 0,
+    "reasoning_effort": null,
+    "image_detail": null,
+    "thinking_mode": "enabled"
+  },
+  "format": "identification-symbolic",
+  "prompt_policy": "answer-only-v1",
+  "output_dir": "results/runs/glm-4.6v-flashx-thinking-full/identification-symbolic",
+  "fingerprint": "f36d017f239ae00a928e0fdf3bc5ce9953def61b63c5ebc4f84e3fe6c8824887",
+  "planned_rows": 1000,
+  "saved_rows": 1001,
+  "attempted_rows": 1000,
+  "settled_rows": 1000,
+  "pending_rows": 0,
+  "pending_ids": [],
+  "superseded_error_rows": 1,
+  "remaining_rows": 0,
+  "in_flight_interrupted": false,
+  "complete": true,
+  "all_attempted": true,
+  "stopped_on_error": false,
+  "stop_reason": null,
+  "execution_policy": {
+    "continue_on_error": true,
+    "max_consecutive_errors": 3,
+    "retry_pending": true,
+    "request_interval": 0,
+    "rate_limit_cooldown": 60
+  },
+  "deferred_pending_ids_this_invocation": [],
+  "continued_errors_this_invocation": 0,
+  "provider_calls_this_invocation": 1,
+  "elapsed_seconds_this_invocation": 9.1124,
+  "overall": {
+    "total": 1000,
+    "correct": 737,
+    "accuracy": 0.737,
+    "invalid": 144,
+    "errors": 0,
+    "valid": 856
+  },
+  "by_track": {
+    "photo": {
+      "total": 1000,
+      "correct": 737,
+      "accuracy": 0.737,
+      "invalid": 144,
+      "errors": 0,
+      "valid": 856
+    }
+  },
+  "by_variant": {
+    "unknown": {
+      "total": 1000,
+      "correct": 737,
+      "accuracy": 0.737,
+      "invalid": 144,
+      "errors": 0,
+      "valid": 856
+    }
+  },
+  "by_cohort": {
+    "unknown": {
+      "total": 1000,
+      "correct": 737,
+      "accuracy": 0.737,
+      "invalid": 144,
+      "errors": 0,
+      "valid": 856
+    }
+  },
+  "by_target": {
+    "A": {
+      "total": 168,
+      "correct": 150,
+      "accuracy": 0.8928571428571429,
+      "invalid": 11,
+      "errors": 0,
+      "valid": 157
+    },
+    "AF": {
+      "total": 11,
+      "correct": 5,
+      "accuracy": 0.45454545454545453,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 5
+    },
+    "B": {
+      "total": 192,
+      "correct": 156,
+      "accuracy": 0.8125,
+      "invalid": 19,
+      "errors": 0,
+      "valid": 173
+    },
+    "C": {
+      "total": 139,
+      "correct": 106,
+      "accuracy": 0.762589928057554,
+      "invalid": 21,
+      "errors": 0,
+      "valid": 118
+    },
+    "D": {
+      "total": 148,
+      "correct": 110,
+      "accuracy": 0.7432432432432432,
+      "invalid": 19,
+      "errors": 0,
+      "valid": 129
+    },
+    "E": {
+      "total": 114,
+      "correct": 71,
+      "accuracy": 0.6228070175438597,
+      "invalid": 22,
+      "errors": 0,
+      "valid": 92
+    },
+    "F": {
+      "total": 71,
+      "correct": 46,
+      "accuracy": 0.647887323943662,
+      "invalid": 14,
+      "errors": 0,
+      "valid": 57
+    },
+    "G": {
+      "total": 57,
+      "correct": 31,
+      "accuracy": 0.543859649122807,
+      "invalid": 11,
+      "errors": 0,
+      "valid": 46
+    },
+    "H": {
+      "total": 40,
+      "correct": 28,
+      "accuracy": 0.7,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 35
+    },
+    "I": {
+      "total": 15,
+      "correct": 12,
+      "accuracy": 0.8,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 14
+    },
+    "J": {
+      "total": 7,
+      "correct": 4,
+      "accuracy": 0.5714285714285714,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 6
+    },
+    "K": {
+      "total": 8,
+      "correct": 1,
+      "accuracy": 0.125,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 2
+    },
+    "L": {
+      "total": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 2
+    },
+    "M": {
+      "total": 5,
+      "correct": 2,
+      "accuracy": 0.4,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 2
+    },
+    "N": {
+      "total": 8,
+      "correct": 2,
+      "accuracy": 0.25,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 5
+    },
+    "O": {
+      "total": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 2
+    },
+    "P": {
+      "total": 11,
+      "correct": 11,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 11
+    }
+  },
+  "by_scene_family": {
+    "barbecue_meal_paper": {
+      "total": 22,
+      "correct": 13,
+      "accuracy": 0.5909090909090909,
+      "invalid": 7,
+      "errors": 0,
+      "valid": 15
+    },
+    "bathroom_with_open_vanity": {
+      "total": 22,
+      "correct": 9,
+      "accuracy": 0.4090909090909091,
+      "invalid": 9,
+      "errors": 0,
+      "valid": 13
+    },
+    "boat_turquoise_seating": {
+      "total": 22,
+      "correct": 11,
+      "accuracy": 0.5,
+      "invalid": 4,
+      "errors": 0,
+      "valid": 18
+    },
+    "bottle_accessories_broken_spoon": {
+      "total": 22,
+      "correct": 12,
+      "accuracy": 0.5454545454545454,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 17
+    },
+    "bowl_with_banana_berries_and_chocolate": {
+      "total": 22,
+      "correct": 10,
+      "accuracy": 0.45454545454545453,
+      "invalid": 7,
+      "errors": 0,
+      "valid": 15
+    },
+    "box_five_pastries": {
+      "total": 22,
+      "correct": 17,
+      "accuracy": 0.7727272727272727,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 19
+    },
+    "cafe_mug_green_drink": {
+      "total": 44,
+      "correct": 31,
+      "accuracy": 0.7045454545454546,
+      "invalid": 7,
+      "errors": 0,
+      "valid": 37
+    },
+    "cat_and_bouquet_on_table": {
+      "total": 22,
+      "correct": 21,
+      "accuracy": 0.9545454545454546,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "cat_puzzle_and_vase": {
+      "total": 22,
+      "correct": 16,
+      "accuracy": 0.7272727272727273,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 17
+    },
+    "christmas_room": {
+      "total": 22,
+      "correct": 10,
+      "accuracy": 0.45454545454545453,
+      "invalid": 4,
+      "errors": 0,
+      "valid": 18
+    },
+    "decorated_gingerbread_house": {
+      "total": 22,
+      "correct": 15,
+      "accuracy": 0.6818181818181818,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 17
+    },
+    "deer_parking": {
+      "total": 22,
+      "correct": 19,
+      "accuracy": 0.8636363636363636,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "desk_building_models": {
+      "total": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 21
+    },
+    "desk_orange_mug": {
+      "total": 22,
+      "correct": 15,
+      "accuracy": 0.6818181818181818,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 16
+    },
+    "desk_red_mug": {
+      "total": 22,
+      "correct": 20,
+      "accuracy": 0.9090909090909091,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "foil_sweets": {
+      "total": 22,
+      "correct": 18,
+      "accuracy": 0.8181818181818182,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 21
+    },
+    "food_shop_trays": {
+      "total": 22,
+      "correct": 11,
+      "accuracy": 0.5,
+      "invalid": 5,
+      "errors": 0,
+      "valid": 17
+    },
+    "fountain_and_winged_statue": {
+      "total": 22,
+      "correct": 18,
+      "accuracy": 0.8181818181818182,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 19
+    },
+    "gallery_two_rows_prints": {
+      "total": 22,
+      "correct": 16,
+      "accuracy": 0.7272727272727273,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 16
+    },
+    "gorilla_rock": {
+      "total": 22,
+      "correct": 10,
+      "accuracy": 0.45454545454545453,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 16
+    },
+    "grazing_horned_animals": {
+      "total": 22,
+      "correct": 20,
+      "accuracy": 0.9090909090909091,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "illuminated_ship": {
+      "total": 22,
+      "correct": 16,
+      "accuracy": 0.7272727272727273,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "lounge_food_table": {
+      "total": 21,
+      "correct": 10,
+      "accuracy": 0.47619047619047616,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 15
+    },
+    "meal_tray_three_dishes": {
+      "total": 22,
+      "correct": 22,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "meal_tray_with_cake_salad_and_soup": {
+      "total": 22,
+      "correct": 18,
+      "accuracy": 0.8181818181818182,
+      "invalid": 2,
+      "errors": 0,
+      "valid": 20
+    },
+    "museum_skeleton_displays": {
+      "total": 22,
+      "correct": 21,
+      "accuracy": 0.9545454545454546,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "museum_statue_devices": {
+      "total": 22,
+      "correct": 21,
+      "accuracy": 0.9545454545454546,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "night_elevated_walkway": {
+      "total": 21,
+      "correct": 20,
+      "accuracy": 0.9523809523809523,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 20
+    },
+    "night_scooter_courtyard": {
+      "total": 21,
+      "correct": 17,
+      "accuracy": 0.8095238095238095,
+      "invalid": 4,
+      "errors": 0,
+      "valid": 17
+    },
+    "night_waterfront_steps": {
+      "total": 21,
+      "correct": 17,
+      "accuracy": 0.8095238095238095,
+      "invalid": 2,
+      "errors": 0,
+      "valid": 19
+    },
+    "office_food_packages": {
+      "total": 21,
+      "correct": 19,
+      "accuracy": 0.9047619047619048,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 20
+    },
+    "office_model_display_shelves": {
+      "total": 21,
+      "correct": 7,
+      "accuracy": 0.3333333333333333,
+      "invalid": 9,
+      "errors": 0,
+      "valid": 12
+    },
+    "office_noticeboard": {
+      "total": 21,
+      "correct": 11,
+      "accuracy": 0.5238095238095238,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 15
+    },
+    "office_partition_shelf": {
+      "total": 21,
+      "correct": 19,
+      "accuracy": 0.9047619047619048,
+      "invalid": 2,
+      "errors": 0,
+      "valid": 19
+    },
+    "office_robot_display": {
+      "total": 21,
+      "correct": 13,
+      "accuracy": 0.6190476190476191,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 15
+    },
+    "office_with_moving_boxes": {
+      "total": 22,
+      "correct": 18,
+      "accuracy": 0.8181818181818182,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 19
+    },
+    "palms_flowers_and_orange_car": {
+      "total": 22,
+      "correct": 14,
+      "accuracy": 0.6363636363636364,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 21
+    },
+    "recycling_map_room": {
+      "total": 21,
+      "correct": 15,
+      "accuracy": 0.7142857142857143,
+      "invalid": 4,
+      "errors": 0,
+      "valid": 17
+    },
+    "sloped_street_with_signs_and_parked_cars": {
+      "total": 22,
+      "correct": 10,
+      "accuracy": 0.45454545454545453,
+      "invalid": 6,
+      "errors": 0,
+      "valid": 16
+    },
+    "terrace_dog_pots": {
+      "total": 22,
+      "correct": 19,
+      "accuracy": 0.8636363636363636,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 21
+    },
+    "three_desserts": {
+      "total": 21,
+      "correct": 17,
+      "accuracy": 0.8095238095238095,
+      "invalid": 3,
+      "errors": 0,
+      "valid": 18
+    },
+    "three_tents_below_wooded_cliff": {
+      "total": 22,
+      "correct": 21,
+      "accuracy": 0.9545454545454546,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 21
+    },
+    "two_desserts_on_plates": {
+      "total": 22,
+      "correct": 17,
+      "accuracy": 0.7727272727272727,
+      "invalid": 2,
+      "errors": 0,
+      "valid": 20
+    },
+    "waterfall_and_cliff_path": {
+      "total": 22,
+      "correct": 22,
+      "accuracy": 1.0,
+      "invalid": 0,
+      "errors": 0,
+      "valid": 22
+    },
+    "waterfront_path": {
+      "total": 22,
+      "correct": 20,
+      "accuracy": 0.9090909090909091,
+      "invalid": 1,
+      "errors": 0,
+      "valid": 21
+    }
+  },
+  "equivalent_pairs": {
+    "complete_pairs": 0,
+    "both_valid": 0,
+    "agree": 0,
+    "agreement": null,
+    "both_correct": 0,
+    "both_correct_accuracy": null,
+    "excluded_incomplete_or_nonpair_families": 0,
+    "denominator": "complete base/de_morgan pairs; invalid/error answers never agree"
+  },
+  "usage": {
+    "input_tokens": 2046374,
+    "output_tokens": 1866530,
+    "total_tokens": 3912904,
+    "reasoning_tokens": 1860365
+  },
+  "parser": "candidate-label-full-response-bold-v1",
+  "billing": {
+    "reported_cost_usd": null,
+    "saved_attempts_with_cost": 0,
+    "saved_attempts_without_cost": 1001,
+    "note": "Provider-reported subtotal for saved attempts only. Missing amounts and requests without a saved response are not included; missing does not mean free."
+  },
+  "note": "Accuracy reflects the latest attempt per row; invalid/error states count as incorrect. Error-state and in-flight rows stay pending for resume. Observations share scenes and equivalent pairs; they are not independent."
+}

@@ -1,0 +1,10 @@
+configuration,symbolic_synthetic,symbolic_photo,nl_synthetic,nl_photo
+Luna,49.15,48.85,48.23,49.55
+Haiku 4.5,49.03,50.05,50.10,50.45
+Grok 4.3,48.48,49.30,49.40,49.90
+Gemini Flash-Lite,48.08,49.65,48.15,49.25
+DeepSeek Flash,50.00,48.85,49.55,49.90
+GLM FlashX (off),48.13,49.50,50.10,50.90
+Llama 4 Scout,49.88,50.20,48.23,50.35
+Qwen3-VL 8B,50.10,51.50,49.45,52.20
+GLM FlashX (on),65.18,60.15,51.68,50.25

@@ -1,0 +1,4568 @@
+[
+  {
+    "image_index": 0,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F has a rectangular body.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The rightmost pot has a curved, rounded body."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is to the right of Object E in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "E"
+        ],
+        "evidence": "The pale pot is left of the smooth reddish pot."
+      },
+      {
+        "id": "p3",
+        "text": "Object D has vertical grooves on its exterior.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The front pot body has visible repeated vertical ribs."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has predominantly gray fur.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The visible coat is light golden and cream."
+      },
+      {
+        "id": "p5",
+        "text": "Object G has a predominantly black exterior.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The visible tank exterior is yellow-green."
+      },
+      {
+        "id": "p6",
+        "text": "Object G is above Object A in the image.",
+        "value": true,
+        "labels": [
+          "G",
+          "A"
+        ],
+        "evidence": "The tank is high in the background and the dog is low in the foreground."
+      },
+      {
+        "id": "p7",
+        "text": "Object A is to the left of Object D in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The dog is well to the right of the ribbed pot."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has a blue exterior.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The large foreground pot has a reddish exterior."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is to the left of Object F in the image.",
+        "value": true,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The smooth pot is well left of the rightmost pot."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has a pale pink exterior.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The exposed pot body is pale pink."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 1,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has a square outline.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The topped pastry has a rounded outline."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is below Object A in the image.",
+        "value": true,
+        "labels": [
+          "C",
+          "A"
+        ],
+        "evidence": "The small round pastry lies well below the topped pastry."
+      },
+      {
+        "id": "p3",
+        "text": "Object B has a predominantly white top surface.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The visible top is dark golden-brown."
+      },
+      {
+        "id": "p4",
+        "text": "Object E has a triangular outline.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The right-hand pastry forms a clear triangular wedge."
+      },
+      {
+        "id": "p5",
+        "text": "Object B is to the right of Object A in the image.",
+        "value": true,
+        "labels": [
+          "B",
+          "A"
+        ],
+        "evidence": "The dark upper pastry lies to the right of the round topped pastry."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has a pale cream-colored topping.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A thick pale topping covers the round pastry."
+      },
+      {
+        "id": "p7",
+        "text": "Object E is to the left of Object D in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "D"
+        ],
+        "evidence": "The triangular pastry is to the right of the large flaky pastry."
+      },
+      {
+        "id": "p8",
+        "text": "Object D has visible flaky layers.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The large central pastry has a layered, flaky surface."
+      },
+      {
+        "id": "p9",
+        "text": "Object C is predominantly green.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The small pastry is golden with red pieces."
+      },
+      {
+        "id": "p10",
+        "text": "Object D is above Object B in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The large flaky pastry is below the dark upper pastry."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 2,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D has a rectangular outline.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The mound tapers to a pointed irregular top."
+      },
+      {
+        "id": "p2",
+        "text": "Object A has a predominantly white body.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The animal body is dark gray with darker markings."
+      },
+      {
+        "id": "p3",
+        "text": "Object B is to the left of Object C in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "C"
+        ],
+        "evidence": "The right foreground animal lies right of the stump."
+      },
+      {
+        "id": "p4",
+        "text": "Object B has its head lowered toward the grass.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The right foreground animal holds its muzzle close to the grass."
+      },
+      {
+        "id": "p5",
+        "text": "Object C has an irregular broken upper edge.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The stump has a jagged broken wooden top."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has visible horns.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Curved horns are visible beside the lowered head of the left foreground animal."
+      },
+      {
+        "id": "p7",
+        "text": "Object C is taller than it is wide in the image.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The stump is a narrow upright form."
+      },
+      {
+        "id": "p8",
+        "text": "Object D is above Object A in the image.",
+        "value": true,
+        "labels": [
+          "D",
+          "A"
+        ],
+        "evidence": "The mound center lies visibly higher than the foreground animal center."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is to the left of Object B in the image.",
+        "value": true,
+        "labels": [
+          "E",
+          "B"
+        ],
+        "evidence": "The left distant animal is far left of the right foreground animal."
+      },
+      {
+        "id": "p10",
+        "text": "Object F is to the right of Object B in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "B"
+        ],
+        "evidence": "The distant animal is far left of the right foreground animal."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 3,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B is taller than it is wide in the image.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The wall-mounted wooden mechanism is long and narrow."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has a circular main body.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Its main wooden body is a long rectangle."
+      },
+      {
+        "id": "p3",
+        "text": "Object A depicts a seated figure.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The statue stands upright on two straight legs on its pedestal."
+      },
+      {
+        "id": "p4",
+        "text": "Object C has visible Roman numerals on its face.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Roman numeral markings surround the visible clock face."
+      },
+      {
+        "id": "p5",
+        "text": "Object D is to the left of Object B in the image.",
+        "value": true,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The narrow rod is well left of the central mechanism."
+      },
+      {
+        "id": "p6",
+        "text": "Object C has a predominantly red case.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible clock case is dark brown wood."
+      },
+      {
+        "id": "p7",
+        "text": "Object D is to the right of Object C in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "C"
+        ],
+        "evidence": "The rod is at the far left and the clock is at the right."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is above Object D in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "D"
+        ],
+        "evidence": "The clock is low at the right; the rod center is high at the left."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is above Object B in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The statue center is lower than the long mechanism center."
+      },
+      {
+        "id": "p10",
+        "text": "Object A depicts a figure wearing a cap.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A cap is visible on the statue head."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 4,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C is below Object B in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The upper plate is well above the yellow dessert."
+      },
+      {
+        "id": "p2",
+        "text": "Object D has a plain undecorated rim.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The lower plate rim has repeated purple decorative shapes."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has a cube-shaped body.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The pink dessert has a rounded teardrop form without square faces."
+      },
+      {
+        "id": "p4",
+        "text": "Object B has a visible hole through its center.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Its clearly visible center is a continuous yellow surface."
+      },
+      {
+        "id": "p5",
+        "text": "Object B is below Object A in the image.",
+        "value": true,
+        "labels": [
+          "B",
+          "A"
+        ],
+        "evidence": "The yellow dessert is well below the pink dessert."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has a pale pink exterior.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The upper teardrop-shaped dessert is pale pink."
+      },
+      {
+        "id": "p7",
+        "text": "Object C has a rectangular outline.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The upper plate has a curved rounded outline."
+      },
+      {
+        "id": "p8",
+        "text": "Object D has a round plate shape.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The lower plate has a continuous curved circular rim viewed in perspective."
+      },
+      {
+        "id": "p9",
+        "text": "Object B has a yellow-orange exterior.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The lower dessert is predominantly bright yellow with orange shading."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has purple shapes around its rim.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Purple decorative shapes repeat around the upper plate rim."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 5,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has predominantly glossy black visible contents.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The foreground tray is filled with many shiny black pieces."
+      },
+      {
+        "id": "p2",
+        "text": "Object B contains a finely crumbled mixture.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Its visible contents are small loose pale-brown crumbs."
+      },
+      {
+        "id": "p3",
+        "text": "Object D has predominantly green visible contents.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The lower-right tray contains yellow and black pieces."
+      },
+      {
+        "id": "p4",
+        "text": "Object L is above Object C in the image.",
+        "value": true,
+        "labels": [
+          "L",
+          "C"
+        ],
+        "evidence": "The small upper dark-filled tray is well above the foreground chunk-filled tray."
+      },
+      {
+        "id": "p5",
+        "text": "Object H is to the left of Object F in the image.",
+        "value": true,
+        "labels": [
+          "H",
+          "F"
+        ],
+        "evidence": "The left dark-filled tray lies far left of the upright-piece tray."
+      },
+      {
+        "id": "p6",
+        "text": "Object J contains rolls bound by light-colored strips.",
+        "value": true,
+        "labels": [
+          "J"
+        ],
+        "evidence": "Pale bands visibly cross several dark rolled pieces."
+      },
+      {
+        "id": "p7",
+        "text": "Object C contains large brown and golden rectangular pieces.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The selected tray holds numerous chunky brown and golden blocks."
+      },
+      {
+        "id": "p8",
+        "text": "Object E is to the right of Object F in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The tray of slender pieces lies left of the tray of upright flat pieces."
+      },
+      {
+        "id": "p9",
+        "text": "Object G has a circular container.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The central tray has straight sides and a rectangular form with rounded corners."
+      },
+      {
+        "id": "p10",
+        "text": "Object I is below Object A in the image.",
+        "value": false,
+        "labels": [
+          "I",
+          "A"
+        ],
+        "evidence": "The rear dark-filled tray is well above the front black-filled tray."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 6,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D is to the right of Object H in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "H"
+        ],
+        "evidence": "The green pickle lies left of the shredded mound."
+      },
+      {
+        "id": "p2",
+        "text": "Object B contains dark oval bean-shaped pieces.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Numerous dark oval pieces are visible in the upper-right bowl."
+      },
+      {
+        "id": "p3",
+        "text": "Object H is above Object A in the image.",
+        "value": false,
+        "labels": [
+          "H",
+          "A"
+        ],
+        "evidence": "The shredded mound is low in the image and the pasta bowl is high."
+      },
+      {
+        "id": "p4",
+        "text": "Object C consists of stacked slices of bread.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Several overlapping bread slices are clearly visible."
+      },
+      {
+        "id": "p5",
+        "text": "Object D has a green exterior.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The elongated pickle has a green surface."
+      },
+      {
+        "id": "p6",
+        "text": "Object C has a predominantly black crust.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The exposed bread crusts are golden-brown."
+      },
+      {
+        "id": "p7",
+        "text": "Object F consists of spherical pieces.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The visible food consists of broad flat slices."
+      },
+      {
+        "id": "p8",
+        "text": "Object A has predominantly red liquid as its visible contents.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The bowl visibly contains pale shell-shaped pasta in a light sauce."
+      },
+      {
+        "id": "p9",
+        "text": "Object G is above Object B in the image.",
+        "value": false,
+        "labels": [
+          "G",
+          "B"
+        ],
+        "evidence": "The sliced sausage is far below the bowl of dark beans."
+      },
+      {
+        "id": "p10",
+        "text": "Object E is to the right of Object F in the image.",
+        "value": true,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The long sauced food is right of the overlapping meat slices."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 7,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A is to the left of Object F in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "F"
+        ],
+        "evidence": "The foreground armchair center is right of the middle-left chair center."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has a predominantly red top surface.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The table top is dark brown-black."
+      },
+      {
+        "id": "p3",
+        "text": "Object F is to the right of Object G in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "G"
+        ],
+        "evidence": "The chair with the orange pillow is left of the rear sofa."
+      },
+      {
+        "id": "p4",
+        "text": "Object H has red and white stripes.",
+        "value": true,
+        "labels": [
+          "H"
+        ],
+        "evidence": "Alternating red and white bands are visible on the flag."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has turquoise seat cushions.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The foreground armchair has bright turquoise cushions."
+      },
+      {
+        "id": "p6",
+        "text": "Object H is below Object C in the image.",
+        "value": false,
+        "labels": [
+          "H",
+          "C"
+        ],
+        "evidence": "The flag is high at the upper right and the vase is much lower."
+      },
+      {
+        "id": "p7",
+        "text": "Object D has a circular top.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The turquoise-topped ottoman has a rectangular outline."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has visibly woven sides.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A repeated dark wicker-like weave covers the table sides."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is above Object D in the image.",
+        "value": true,
+        "labels": [
+          "E",
+          "D"
+        ],
+        "evidence": "The more distant ottoman appears higher than the nearer one."
+      },
+      {
+        "id": "p10",
+        "text": "Object C contains flowers.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Colored flower heads and stems emerge from the small vase."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 8,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object AE is to the right of Object I in the image.",
+        "value": true,
+        "labels": [
+          "AE",
+          "I"
+        ],
+        "evidence": "AE is near the right end of the lower row and I is much farther left."
+      },
+      {
+        "id": "p2",
+        "text": "Object K has a circular frame.",
+        "value": false,
+        "labels": [
+          "K"
+        ],
+        "evidence": "K is surrounded by a rectangular frame."
+      },
+      {
+        "id": "p3",
+        "text": "Object AD has a brown frame.",
+        "value": true,
+        "labels": [
+          "AD"
+        ],
+        "evidence": "The border around AD is visibly brown."
+      },
+      {
+        "id": "p4",
+        "text": "Object C is to the right of Object Z in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "Z"
+        ],
+        "evidence": "C is near the far left, while Z is farther right."
+      },
+      {
+        "id": "p5",
+        "text": "Object AF shows a red region in the upper half of its printed image.",
+        "value": true,
+        "labels": [
+          "AF"
+        ],
+        "evidence": "The rightmost lower print depicts a can with a large red upper band."
+      },
+      {
+        "id": "p6",
+        "text": "Object AF is above Object O in the image.",
+        "value": false,
+        "labels": [
+          "AF",
+          "O"
+        ],
+        "evidence": "AF is in the lower row and O is in the upper row."
+      },
+      {
+        "id": "p7",
+        "text": "Object N has a blue frame.",
+        "value": false,
+        "labels": [
+          "N"
+        ],
+        "evidence": "The frame around N is brown."
+      },
+      {
+        "id": "p8",
+        "text": "Object R is to the left of Object N in the image.",
+        "value": true,
+        "labels": [
+          "R",
+          "N"
+        ],
+        "evidence": "R is near the far left; N is toward the right."
+      },
+      {
+        "id": "p9",
+        "text": "Object P has a rectangular frame.",
+        "value": true,
+        "labels": [
+          "P"
+        ],
+        "evidence": "The rightmost upper print has four straight frame sides."
+      },
+      {
+        "id": "p10",
+        "text": "Object M is above Object AC in the image.",
+        "value": true,
+        "labels": [
+          "M",
+          "AC"
+        ],
+        "evidence": "M occupies the upper row directly above AC in the lower row."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 9,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C has predominantly green visible contents.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible soup is orange-red."
+      },
+      {
+        "id": "p2",
+        "text": "Object B contains visible blueberries.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A cluster of round blue-black berries is visible at the left side of the bowl."
+      },
+      {
+        "id": "p3",
+        "text": "Object C is empty.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Visible soup fills much of the bowl."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has a rectangular outline.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The exposed plate rim follows a rounded curve."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has a pale rim.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The exposed plate rim is off-white."
+      },
+      {
+        "id": "p6",
+        "text": "Object A is to the left of Object C in the image.",
+        "value": true,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The plate center is well left of the soup-bowl center."
+      },
+      {
+        "id": "p7",
+        "text": "Object C has a red rim.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The bowl rim is bright red."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has a blue rim.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The visible bowl rim is pale cream."
+      },
+      {
+        "id": "p9",
+        "text": "Object B is below Object A in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "A"
+        ],
+        "evidence": "The berry bowl is positioned higher than the mixed-food plate."
+      },
+      {
+        "id": "p10",
+        "text": "Object A is below Object C in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The plate center is visibly higher than the soup-bowl center."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 10,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F has a rectangular bowl outline.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The spoon bowl has a broad rounded outline."
+      },
+      {
+        "id": "p2",
+        "text": "Object A has a transparent body.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The bottle wall transmits the view of the liquid and table behind it."
+      },
+      {
+        "id": "p3",
+        "text": "Object B has a predominantly black exterior.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The charging case is pale white-gray."
+      },
+      {
+        "id": "p4",
+        "text": "Object E has a red exterior.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The handle is white."
+      },
+      {
+        "id": "p5",
+        "text": "Object C has a braided texture.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Interwoven strands are visible around the dark loop."
+      },
+      {
+        "id": "p6",
+        "text": "Object E has a hole near one end.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "A round hole is visible near the left end of the spoon handle."
+      },
+      {
+        "id": "p7",
+        "text": "Object D has a coiled shape.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The gold-colored accessory consists of repeated spiral loops."
+      },
+      {
+        "id": "p8",
+        "text": "Object F is to the right of Object E in the image.",
+        "value": true,
+        "labels": [
+          "F",
+          "E"
+        ],
+        "evidence": "The spoon bowl lies to the right of the detached handle center."
+      },
+      {
+        "id": "p9",
+        "text": "Object C is below Object F in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "F"
+        ],
+        "evidence": "The braided loop is at the upper left and the spoon bowl is much lower."
+      },
+      {
+        "id": "p10",
+        "text": "Object D is to the right of Object A in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "A"
+        ],
+        "evidence": "The coiled accessory lies to the left of the bottle."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 11,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C is to the right of Object F in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "F"
+        ],
+        "evidence": "The laptop is far left of the bookcase."
+      },
+      {
+        "id": "p2",
+        "text": "Object D has a bright red exterior.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The backpack under the desk is dark black."
+      },
+      {
+        "id": "p3",
+        "text": "Object G has a white writing surface.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The cropped whiteboard has a large white face."
+      },
+      {
+        "id": "p4",
+        "text": "Object C has its screen raised above its keyboard.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The laptop is visibly open."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has a dark exterior.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The tall bottle on the left desk is nearly black."
+      },
+      {
+        "id": "p6",
+        "text": "Object H is below Object I in the image.",
+        "value": false,
+        "labels": [
+          "H",
+          "I"
+        ],
+        "evidence": "The box center lies above the foreground wastebasket center."
+      },
+      {
+        "id": "p7",
+        "text": "Object B is to the left of Object C in the image.",
+        "value": true,
+        "labels": [
+          "B",
+          "C"
+        ],
+        "evidence": "The thin booklet lies left of the laptop."
+      },
+      {
+        "id": "p8",
+        "text": "Object E has caster wheels.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "Small wheels are visible at the ends of the office-chair base."
+      },
+      {
+        "id": "p9",
+        "text": "Object I has a white exterior.",
+        "value": false,
+        "labels": [
+          "I"
+        ],
+        "evidence": "The visible wastebasket is black."
+      },
+      {
+        "id": "p10",
+        "text": "Object F is above Object H in the image.",
+        "value": true,
+        "labels": [
+          "F",
+          "H"
+        ],
+        "evidence": "The tall bookcase center is clearly higher than the open box center."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 12,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B has a rectangular body.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The vase body is rounded and bulbous."
+      },
+      {
+        "id": "p2",
+        "text": "Object C has predominantly fresh green foliage.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible arrangement is made of dry brown stems and seed heads."
+      },
+      {
+        "id": "p3",
+        "text": "Object D includes loose jigsaw pieces.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "Many unattached puzzle pieces are scattered across the board."
+      },
+      {
+        "id": "p4",
+        "text": "Object F is to the left of Object B in the image.",
+        "value": true,
+        "labels": [
+          "F",
+          "B"
+        ],
+        "evidence": "The curtain occupies the left side; the vase is at the upper right."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has predominantly white fur.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Most of the reclining cat body is covered in white or cream fur."
+      },
+      {
+        "id": "p6",
+        "text": "Object E has a bright red exterior.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The cushion is teal."
+      },
+      {
+        "id": "p7",
+        "text": "Object F is predominantly black.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The curtain is light cream-white."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has a translucent body.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Flower stems remain visible through the dark tinted vase wall."
+      },
+      {
+        "id": "p9",
+        "text": "Object D is to the right of Object B in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The puzzle board is left of the vase."
+      },
+      {
+        "id": "p10",
+        "text": "Object A is above Object C in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The cat is below the dried flower arrangement."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 13,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object G is to the right of Object D in the image.",
+        "value": false,
+        "labels": [
+          "G",
+          "D"
+        ],
+        "evidence": "The selected crossover is far left of the hydrant."
+      },
+      {
+        "id": "p2",
+        "text": "Object F has a predominantly blue body.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The SUV is red-orange with dark lower panels."
+      },
+      {
+        "id": "p3",
+        "text": "Object H is above Object G in the image.",
+        "value": true,
+        "labels": [
+          "H",
+          "G"
+        ],
+        "evidence": "The balcony is high on the house, well above the selected parked crossover."
+      },
+      {
+        "id": "p4",
+        "text": "Object D has a red top.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The hydrant cap is red."
+      },
+      {
+        "id": "p5",
+        "text": "Object E has a silver body.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The closest hatchback body panels are silver-gray."
+      },
+      {
+        "id": "p6",
+        "text": "Object B has black lettering on a white background.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The TAYLOR lettering is dark on the pale street sign."
+      },
+      {
+        "id": "p7",
+        "text": "Object A is below Object D in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The yellow sign is well above the hydrant."
+      },
+      {
+        "id": "p8",
+        "text": "Object C has a circular outline.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The BROADWAY sign has an elongated rectangular outline."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is above Object B in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "B"
+        ],
+        "evidence": "The closest hatchback is below the TAYLOR sign."
+      },
+      {
+        "id": "p10",
+        "text": "Object A has a yellow background.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The diamond road sign has a bright yellow face."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 15,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C is above Object A in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "A"
+        ],
+        "evidence": "The log center is lower than the waterfall center."
+      },
+      {
+        "id": "p2",
+        "text": "Object B lies on the surface of the pool.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The path visibly follows a ledge partway up the cliff."
+      },
+      {
+        "id": "p3",
+        "text": "Object B is above Object C in the image.",
+        "value": true,
+        "labels": [
+          "B",
+          "C"
+        ],
+        "evidence": "The cliff path lies well above the log in the pool."
+      },
+      {
+        "id": "p4",
+        "text": "Object C has a predominantly green visible surface.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible log is pale gray-brown."
+      },
+      {
+        "id": "p5",
+        "text": "Object A is predominantly red.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The visible falling water is white and pale gray."
+      },
+      {
+        "id": "p6",
+        "text": "Object A is to the right of Object C in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The waterfall center is well left of the log center."
+      },
+      {
+        "id": "p7",
+        "text": "Object A produces visible white spray at its base.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "White splashing water is visible where the waterfall reaches the pool."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is a fallen log.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "A long bare pale wooden trunk lies horizontally in the pool."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is wider than it is tall in the image.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The waterfall forms a very tall narrow column."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a visible railing.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A repeated row of railing posts follows the cliff path."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 16,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object E is to the left of Object F in the image.",
+        "value": true,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The two green tree decorations sit on opposite sides of the door."
+      },
+      {
+        "id": "p2",
+        "text": "Object E is predominantly white.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The tree-shaped candy is green."
+      },
+      {
+        "id": "p3",
+        "text": "Object F is above Object C in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "C"
+        ],
+        "evidence": "The right tree decoration is well below the wreath."
+      },
+      {
+        "id": "p4",
+        "text": "Object C is above Object D in the image.",
+        "value": true,
+        "labels": [
+          "C",
+          "D"
+        ],
+        "evidence": "The wreath lies clearly above the door."
+      },
+      {
+        "id": "p5",
+        "text": "Object D is red.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The door decoration is red."
+      },
+      {
+        "id": "p6",
+        "text": "Object B wears a red hat.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The snowman decoration has a red hat."
+      },
+      {
+        "id": "p7",
+        "text": "Object A has predominantly blue walls.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The house walls are brown with white icing and colorful decorations."
+      },
+      {
+        "id": "p8",
+        "text": "Object B is below Object F in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "F"
+        ],
+        "evidence": "The snowman is on the roof and the tree decoration is near the base."
+      },
+      {
+        "id": "p9",
+        "text": "Object D has a circular outline.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The door has a vertical arched-top outline rather than a circle."
+      },
+      {
+        "id": "p10",
+        "text": "Object C forms a green ring.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The wreath is a green circular ring with an open center."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 17,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has a domed roof.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Curving poles give the foreground tent an arched roof."
+      },
+      {
+        "id": "p2",
+        "text": "Object C has an orange canopy.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The top fly of the rightmost tent is orange."
+      },
+      {
+        "id": "p3",
+        "text": "Object A is to the left of object C in the image.",
+        "value": true,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The green tent is well left of the large yellow tent."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has visible wheels.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Its visible lower edges rest on the grass without wheels."
+      },
+      {
+        "id": "p5",
+        "text": "Object C is a tree.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The referent is a fabric tent, distinct from the background trees."
+      },
+      {
+        "id": "p6",
+        "text": "Object C has a polka-dot pattern on its visible canopy.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible orange canopy is solid-colored."
+      },
+      {
+        "id": "p7",
+        "text": "Object B is to the right of object C in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "C"
+        ],
+        "evidence": "The gray tent is left of the yellow tent."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has light gray fabric panels.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The smaller rear tent has gray and white panels."
+      },
+      {
+        "id": "p9",
+        "text": "Object A has dark green fabric panels.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Large green panels are visible on the foreground tent."
+      },
+      {
+        "id": "p10",
+        "text": "Object B is a tent.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A pitched fabric shelter with an entrance is visible."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 18,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F has a rectangular sign face.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The white street sign is a tall rectangle."
+      },
+      {
+        "id": "p2",
+        "text": "Object B is to the right of object E in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "E"
+        ],
+        "evidence": "The conifer is at the left and the palm trunk is near the right edge."
+      },
+      {
+        "id": "p3",
+        "text": "Object A is above object D in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The car is low in the image, below the central palm."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has an orange body.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The parked car has orange painted panels."
+      },
+      {
+        "id": "p5",
+        "text": "Object G is to the left of object B in the image.",
+        "value": false,
+        "labels": [
+          "G",
+          "B"
+        ],
+        "evidence": "The pink flowering plant is well right of the left conifer."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is a road sign.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "C identifies the smaller palm with fronds and a textured trunk."
+      },
+      {
+        "id": "p7",
+        "text": "Object G has pink flowers.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "Pink blossoms cover the climbing plant."
+      },
+      {
+        "id": "p8",
+        "text": "Object E is a traffic light.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "E identifies a palm trunk and foliage, not a signal assembly."
+      },
+      {
+        "id": "p9",
+        "text": "Object F has a blue sign face.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The visible sign face is white with dark lettering."
+      },
+      {
+        "id": "p10",
+        "text": "Object D has fan-shaped leaves.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The central palm has broad radiating fan leaves."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 19,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F has fork tines.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The visible end is an intact spoon bowl without tines."
+      },
+      {
+        "id": "p2",
+        "text": "Object C contains a bright blue liquid.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible soup is orange-brown."
+      },
+      {
+        "id": "p3",
+        "text": "Object B is below object F in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "F"
+        ],
+        "evidence": "The salad bowl is near the top and the spoon is near the bottom."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has a dark brown cake body.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The cake has a dark brown exposed side beneath its topping."
+      },
+      {
+        "id": "p5",
+        "text": "Object C has a round rim.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The soup bowl has a circular rim viewed obliquely."
+      },
+      {
+        "id": "p6",
+        "text": "Object D has a black plate rim.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The exposed oval plate rim is white."
+      },
+      {
+        "id": "p7",
+        "text": "Object B contains visible green leaves.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Green salad leaves are visible in the upper-right bowl."
+      },
+      {
+        "id": "p8",
+        "text": "Object E has prongs.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The metal fork has parallel tines at its right end."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is to the right of object D in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The cake is upper left and the entree plate is lower right."
+      },
+      {
+        "id": "p10",
+        "text": "Object F has a reflective silver-colored surface.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "Light reflects from the metallic spoon bowl and handle."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 20,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has visible ribs.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The foreground skeleton has an exposed rib cage."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has its snout pointing toward the left edge of the image.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The upright skull extends rightward from its neck."
+      },
+      {
+        "id": "p3",
+        "text": "Object B is to the left of object D in the image.",
+        "value": true,
+        "labels": [
+          "B",
+          "D"
+        ],
+        "evidence": "The upright skeleton is central and the light is at the right edge."
+      },
+      {
+        "id": "p4",
+        "text": "Object A is above object D in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The foreground skeleton is centered well below the ceiling light."
+      },
+      {
+        "id": "p5",
+        "text": "Object D has a white lampshade.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The hanging light has a white bowl-shaped shade."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is displayed behind a glass panel.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The smaller specimen is inside the framed glass display."
+      },
+      {
+        "id": "p7",
+        "text": "Object C is to the left of object B in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The enclosed skeleton is right of the upright skeleton."
+      },
+      {
+        "id": "p8",
+        "text": "Object A has an elongated skull.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The foreground skeleton has a long skull projecting toward the lower right."
+      },
+      {
+        "id": "p9",
+        "text": "Object D is below object C in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "C"
+        ],
+        "evidence": "The hanging light is well above the enclosed specimen."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has its skull above its rib cage in the image.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The upright skeleton extends its neck and skull above its torso."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 21,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C is below object D in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "D"
+        ],
+        "evidence": "The banana arrangement lies above the blueberries."
+      },
+      {
+        "id": "p2",
+        "text": "Object A has a square outer outline.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The bowl has a round outer rim."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has blue stripes around its rim.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Concentric blue lines run around the white bowl rim."
+      },
+      {
+        "id": "p4",
+        "text": "Object C consists of red fruit slices.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The visible banana slices are pale yellow."
+      },
+      {
+        "id": "p5",
+        "text": "Object B has a rectangular outline.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The central chocolate piece is a rectangular slab."
+      },
+      {
+        "id": "p6",
+        "text": "Object D is above object B in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The blueberry group lies below the chocolate."
+      },
+      {
+        "id": "p7",
+        "text": "Object B has a green surface.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The chocolate slab has a brown top surface."
+      },
+      {
+        "id": "p8",
+        "text": "Object D consists of multiple berries.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "Many individual blueberries form the lower group."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is to the left of object A in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The utensil enters at the right edge of the centered bowl."
+      },
+      {
+        "id": "p10",
+        "text": "Object E is transparent.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The background shows through the clear eating utensil."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 22,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A includes white flowers.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Several large white flowers are visible in the bouquet."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is to the right of object B in the image.",
+        "value": true,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The cat stands right of the flower container."
+      },
+      {
+        "id": "p3",
+        "text": "Object B has a pink exterior.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The cylindrical flower container is pale pink."
+      },
+      {
+        "id": "p4",
+        "text": "Object D is to the right of object C in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "C"
+        ],
+        "evidence": "The leafy plant is at the far left, opposite the cat."
+      },
+      {
+        "id": "p5",
+        "text": "Object C has triangular ears.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Both cat ears have pointed triangular outlines."
+      },
+      {
+        "id": "p6",
+        "text": "Object E is below object A in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The lamp is at the top, well above the bouquet."
+      },
+      {
+        "id": "p7",
+        "text": "Object C has blue fur.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The cat has orange and white fur."
+      },
+      {
+        "id": "p8",
+        "text": "Object E is visibly illuminated.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The pendant contains a bright glowing light."
+      },
+      {
+        "id": "p9",
+        "text": "Object B has a square cross-section.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Its curved sides and elliptical base identify a round container."
+      },
+      {
+        "id": "p10",
+        "text": "Object A is below object B in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The bouquet rises above its container."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 23,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C has a pump dispenser.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "A projecting pump is visible on the dark bottle."
+      },
+      {
+        "id": "p2",
+        "text": "Object D has an open upper rim.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The top of the bathtub is exposed and its interior visible."
+      },
+      {
+        "id": "p3",
+        "text": "Object E has a rectangular outline.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The bath mat has four straight sides with rounded corners."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has a white basin.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The washbasin and rim are white."
+      },
+      {
+        "id": "p5",
+        "text": "Object G has a red finish.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The bathtub spout is chrome-colored, not red."
+      },
+      {
+        "id": "p6",
+        "text": "Object B has a reflective metallic finish.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The basin faucet has a shiny chrome-colored surface."
+      },
+      {
+        "id": "p7",
+        "text": "Object H has a black frame.",
+        "value": false,
+        "labels": [
+          "H"
+        ],
+        "evidence": "The left shelving cart has a white frame."
+      },
+      {
+        "id": "p8",
+        "text": "Object E is above object A in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The bath mat is below the washbasin."
+      },
+      {
+        "id": "p9",
+        "text": "Object I is to the left of object H in the image.",
+        "value": false,
+        "labels": [
+          "I",
+          "H"
+        ],
+        "evidence": "The black cart is near the right doorway; the white cart is at the left."
+      },
+      {
+        "id": "p10",
+        "text": "Object F has vertical folds.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "Long vertical folds run down the shower curtain."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 24,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object E is to the right of object C in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "C"
+        ],
+        "evidence": "The lower facade is left of the narrow tower."
+      },
+      {
+        "id": "p2",
+        "text": "Object D has stacked rows of balconies.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "Repeated horizontal balconies are visible on the right building."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has a black exterior.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The statue is visibly white."
+      },
+      {
+        "id": "p4",
+        "text": "Object D is below object A in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "A"
+        ],
+        "evidence": "The right building is above the foreground statue in image coordinates."
+      },
+      {
+        "id": "p5",
+        "text": "Object B is to the left of object E in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "E"
+        ],
+        "evidence": "The central fountain lies to the right of the left facade."
+      },
+      {
+        "id": "p6",
+        "text": "Object E has a triangular pediment.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "A triangular pediment tops the lower left facade."
+      },
+      {
+        "id": "p7",
+        "text": "Object B has water jets directed upward.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Tall water plumes rise vertically from the fountain."
+      },
+      {
+        "id": "p8",
+        "text": "Object C has a hemispherical dome at its top.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The tower has a small angular roof, not a round dome."
+      },
+      {
+        "id": "p9",
+        "text": "Object A has a visible wing.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A large sculpted feathered wing projects from the statue."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has a green exterior.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The tower walls have a pale cream or gray exterior."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 25,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has a curved handle.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A large curved handle projects from the mug."
+      },
+      {
+        "id": "p2",
+        "text": "Object E is to the left of object C in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "C"
+        ],
+        "evidence": "The picture frame is right of the charging case."
+      },
+      {
+        "id": "p3",
+        "text": "Object B has a pink exterior.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The tumbler has a dark blue body and metallic rim."
+      },
+      {
+        "id": "p4",
+        "text": "Object C has a white exterior.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The small rounded charging case is white."
+      },
+      {
+        "id": "p5",
+        "text": "Object F is an open framework of straight rods.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "Straight rods form the ornament with open gaps between them."
+      },
+      {
+        "id": "p6",
+        "text": "Object G has a transparent body.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The banknote is between clear panels through which the desk is visible."
+      },
+      {
+        "id": "p7",
+        "text": "Object H has a green cap.",
+        "value": true,
+        "labels": [
+          "H"
+        ],
+        "evidence": "The upright marker has a green upper cap."
+      },
+      {
+        "id": "p8",
+        "text": "Object D is above object B in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The snack packet is lower in the image than the insulated tumbler."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is below object H in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "H"
+        ],
+        "evidence": "The mug is well above the marker in image coordinates."
+      },
+      {
+        "id": "p10",
+        "text": "Object G has a circular outer outline.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The clear display stand has a rectangular outer outline."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 26,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object G has a blue fabric body.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The zippered pouch is blue fabric."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has opaque outer walls.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The tray walls are clear and contents are visible through them."
+      },
+      {
+        "id": "p3",
+        "text": "Object C has a black lid.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "A black circular lid covers the small jar."
+      },
+      {
+        "id": "p4",
+        "text": "Object H has visible purple parts.",
+        "value": true,
+        "labels": [
+          "H"
+        ],
+        "evidence": "Purple protrusions are visible on the small toy."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has a red exterior.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The mug body is red."
+      },
+      {
+        "id": "p6",
+        "text": "Object G has a circular outline.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The pouch has a long, narrow rectangular outline."
+      },
+      {
+        "id": "p7",
+        "text": "Object F has a green lid.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The yellow tub has a bright green lid."
+      },
+      {
+        "id": "p8",
+        "text": "Object D is to the right of object C in the image.",
+        "value": false,
+        "labels": [
+          "D",
+          "C"
+        ],
+        "evidence": "The pencil tin is well left of the jar."
+      },
+      {
+        "id": "p9",
+        "text": "Object B contains a row of pencils.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Multiple pencils lie side by side in the tray."
+      },
+      {
+        "id": "p10",
+        "text": "Object E is below object A in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The rounded yellow object is above the mug."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 29,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object E is below object D in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "D"
+        ],
+        "evidence": "The napkins are above the lower pile of chips."
+      },
+      {
+        "id": "p2",
+        "text": "Object D consists of thin, rounded food pieces.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The chips are individually visible as thin curved or rounded pieces."
+      },
+      {
+        "id": "p3",
+        "text": "Object E consists of folded white sheets.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The napkins are folded white sheets beside the drinks."
+      },
+      {
+        "id": "p4",
+        "text": "Object B is below object C in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "C"
+        ],
+        "evidence": "The glass is above the topped bread."
+      },
+      {
+        "id": "p5",
+        "text": "Object A is above object B in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The mug center is lower than the green-drink glass center."
+      },
+      {
+        "id": "p6",
+        "text": "Object B contains a visible green drink.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Green liquid is visible through the glass."
+      },
+      {
+        "id": "p7",
+        "text": "Object C is to the left of object D in the image.",
+        "value": true,
+        "labels": [
+          "C",
+          "D"
+        ],
+        "evidence": "The bread is on the left side of the plate and chips on the right."
+      },
+      {
+        "id": "p8",
+        "text": "Object C has red toppings.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Several red tomato pieces sit on the bread."
+      },
+      {
+        "id": "p9",
+        "text": "Object A has a black exterior.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The mug has a black outer wall."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has a circular outline.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The topped bread has an elongated rectangular outline."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 30,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F is below object B in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "B"
+        ],
+        "evidence": "The phone is near the top, well above the glass."
+      },
+      {
+        "id": "p2",
+        "text": "Object E has the shape of a circular disc.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The napkins have a rectangular sheet-like form."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has a curved handle.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A black curved handle is visible on the mug right side."
+      },
+      {
+        "id": "p4",
+        "text": "Object E is to the left of object F in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The napkins are right and the phone is upper left."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has a red exterior.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The mug exterior is black."
+      },
+      {
+        "id": "p6",
+        "text": "Object B is above object A in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "A"
+        ],
+        "evidence": "The glass is in the foreground, well below the mug."
+      },
+      {
+        "id": "p7",
+        "text": "Object F has a rectangular outline.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The cropped phone has straight sides and rounded rectangular corners."
+      },
+      {
+        "id": "p8",
+        "text": "Object E is white.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The folded napkins are white."
+      },
+      {
+        "id": "p9",
+        "text": "Object B contains a visible green drink.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The uncovered drink has a green upper layer."
+      },
+      {
+        "id": "p10",
+        "text": "Object A has a triangular opening.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The mug opening is round, seen as an ellipse."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 34,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B is to the right of object E in the image.",
+        "value": false,
+        "labels": [
+          "B",
+          "E"
+        ],
+        "evidence": "The middle yellow figure is left of the separate gold rabbit."
+      },
+      {
+        "id": "p2",
+        "text": "Object A has a yellow foil exterior.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The upper figurine has crinkled yellow foil wrapping."
+      },
+      {
+        "id": "p3",
+        "text": "Object G has a square outline.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The token has a circular outline."
+      },
+      {
+        "id": "p4",
+        "text": "Object D has a floral pattern.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "Flowers and leaves are printed on the turquoise package."
+      },
+      {
+        "id": "p5",
+        "text": "Object E is above object A in the image.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The gold rabbit is lower than the upper yellow figure."
+      },
+      {
+        "id": "p6",
+        "text": "Object G is green.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The small token is green with pale markings."
+      },
+      {
+        "id": "p7",
+        "text": "Object D has a predominantly black wrapper.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The bag is turquoise and white with red details."
+      },
+      {
+        "id": "p8",
+        "text": "Object F is to the left of object C in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "C"
+        ],
+        "evidence": "The open package is at lower right, right of the lower yellow figure."
+      },
+      {
+        "id": "p9",
+        "text": "Object F has an open display window.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "A large package cutout exposes the foil-wrapped contents."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has a printed face.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Large printed eyes and facial graphics are visible."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 35,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D has white body panels.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The parked car between the red car and dark SUV is white."
+      },
+      {
+        "id": "p2",
+        "text": "Object F has a pickup bed.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "An open truck bed is visible behind the cab."
+      },
+      {
+        "id": "p3",
+        "text": "Object F is above object G in the image.",
+        "value": false,
+        "labels": [
+          "F",
+          "G"
+        ],
+        "evidence": "The pickup is low in the street below the conifer center."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has brown fur.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The foreground deer has a brown coat."
+      },
+      {
+        "id": "p5",
+        "text": "Object E has bright yellow body panels.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The SUV has dark, nearly black body panels."
+      },
+      {
+        "id": "p6",
+        "text": "Object B is facing toward the left edge of the image.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The left deer has its head and snout pointing left."
+      },
+      {
+        "id": "p7",
+        "text": "Object C has red body panels.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The leftmost labeled parked car is red."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is to the right of object F in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "F"
+        ],
+        "evidence": "The red car is well left of the red pickup."
+      },
+      {
+        "id": "p9",
+        "text": "Object G has green foliage.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The tall left conifer has green needle-covered branches."
+      },
+      {
+        "id": "p10",
+        "text": "Object A is to the left of object B in the image.",
+        "value": false,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The large foreground deer is right of the left deer."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 38,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B has a rectangular frame.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The wall picture has a straight-sided rectangular frame."
+      },
+      {
+        "id": "p2",
+        "text": "Object A is decorated with lights.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Multiple glowing lights are attached to the tree."
+      },
+      {
+        "id": "p3",
+        "text": "Object C has fan blades.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Three broad blades extend from the ceiling fan hub."
+      },
+      {
+        "id": "p4",
+        "text": "Object D has a white writing surface.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The easel board has a visible white rectangular surface."
+      },
+      {
+        "id": "p5",
+        "text": "Object I is to the left of object B in the image.",
+        "value": false,
+        "labels": [
+          "I",
+          "B"
+        ],
+        "evidence": "The gift bag is near the lower center, right of the wall picture."
+      },
+      {
+        "id": "p6",
+        "text": "Object G is above object C in the image.",
+        "value": false,
+        "labels": [
+          "G",
+          "C"
+        ],
+        "evidence": "The stool is near floor level below the ceiling fan."
+      },
+      {
+        "id": "p7",
+        "text": "Object F has a bright red body.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The visible keyboard instrument body is black."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is below object H in the image.",
+        "value": false,
+        "labels": [
+          "C",
+          "H"
+        ],
+        "evidence": "The ceiling fan is far above the candle cluster."
+      },
+      {
+        "id": "p9",
+        "text": "Object H emits yellow-orange light.",
+        "value": true,
+        "labels": [
+          "H"
+        ],
+        "evidence": "The candle cluster glows yellow-orange; no real-flame claim is made."
+      },
+      {
+        "id": "p10",
+        "text": "Object E has a white exterior.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The refrigerator has white doors and panels."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 39,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object G has a predominantly white body.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The middle parked vehicle has a dark body, unlike the pale vehicles on either side."
+      },
+      {
+        "id": "p2",
+        "text": "Object B is to the left of Object F.",
+        "value": false,
+        "labels": [
+          "B",
+          "F"
+        ],
+        "evidence": "The foreground car occupies the right side, while F is in the left parked row."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has bright green sails.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The visible sails are pale white rather than bright green."
+      },
+      {
+        "id": "p4",
+        "text": "Object F is to the left of Object H.",
+        "value": true,
+        "labels": [
+          "F",
+          "H"
+        ],
+        "evidence": "The left white parked vehicle is well left of the right white parked vehicle."
+      },
+      {
+        "id": "p5",
+        "text": "Object H is a bicycle.",
+        "value": false,
+        "labels": [
+          "H"
+        ],
+        "evidence": "H is a white parked car with a car body and roof."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is below Object B.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The streetlamp is high over the ship; the foreground car is near the bottom edge."
+      },
+      {
+        "id": "p7",
+        "text": "Object B has a bright yellow body.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The foreground car's visible body is dark red."
+      },
+      {
+        "id": "p8",
+        "text": "Object D displays an illuminated red signal.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The signal beside the left part of the ship has a bright red lamp."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is above Object G.",
+        "value": true,
+        "labels": [
+          "E",
+          "G"
+        ],
+        "evidence": "The right red signal is substantially higher in the image than the dark parked car."
+      },
+      {
+        "id": "p10",
+        "text": "Object A has more than one mast.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Several tall masts with crosspieces are visible on the illuminated ship."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 40,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "A rope passes through a visible hole in Object D.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The foreground wooden post has a visible opening through which the rope runs."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is upright.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The person on the path has an upright torso and extended legs."
+      },
+      {
+        "id": "p3",
+        "text": "Object B is supported by vertical posts.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Several vertical supports extend below the pier into the water."
+      },
+      {
+        "id": "p4",
+        "text": "Object A is below Object D.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The bench is higher in the image than the foreground rope post."
+      },
+      {
+        "id": "p5",
+        "text": "Object E has a rectangular outline.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The sign panel above the pier has a rounded oval outline."
+      },
+      {
+        "id": "p6",
+        "text": "Object B is above Object E.",
+        "value": false,
+        "labels": [
+          "B",
+          "E"
+        ],
+        "evidence": "The pier lies beneath the rounded sign mounted above its end."
+      },
+      {
+        "id": "p7",
+        "text": "Object F is to the left of Object A.",
+        "value": true,
+        "labels": [
+          "F",
+          "A"
+        ],
+        "evidence": "The closest bicycle rack is at the far left of the bench."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is to the right of Object B.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The person is on the path well to the left of the pier."
+      },
+      {
+        "id": "p9",
+        "text": "Object D has a smooth metal exterior.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The foreground post has visible brown wooden grain and end grain."
+      },
+      {
+        "id": "p10",
+        "text": "Object A has a flat rectangular top.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The concrete bench has a long flat top with straight rectangular edges."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 41,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object A has dark fur.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Dark gray and black fur is visible across the animal's torso and limbs."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is below Object A.",
+        "value": false,
+        "labels": [
+          "C",
+          "A"
+        ],
+        "evidence": "The vertical post is high behind the animal, not beneath it."
+      },
+      {
+        "id": "p3",
+        "text": "Object A is reclining.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The labeled animal's torso rests sideways on the grass."
+      },
+      {
+        "id": "p4",
+        "text": "Object D is to the right of Object B.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The foreground plant's center is well left of the center of the labeled rock face."
+      },
+      {
+        "id": "p5",
+        "text": "Object D has predominantly purple leaves.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The clearly visible leaves are green."
+      },
+      {
+        "id": "p6",
+        "text": "Object B is a window.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "B is an opaque irregular rock face, with no window pane or frame."
+      },
+      {
+        "id": "p7",
+        "text": "Object C is taller than it is wide.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The background post is a narrow vertical member."
+      },
+      {
+        "id": "p8",
+        "text": "Object D has branching stems.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "Several visible woody stems branch through the foreground foliage."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is above Object D.",
+        "value": true,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The reclining animal is in the middle of the image; the plant is near the bottom."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a rough uneven surface.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The foreground rock face has visible ridges, cracks, and irregular texture."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 43,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object C has an arched opening.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The central illuminated gateway has a rounded arch over its entrance."
+      },
+      {
+        "id": "p2",
+        "text": "Object D has a rounded dome roof.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The small canopy has a pointed triangular roof, not a rounded dome."
+      },
+      {
+        "id": "p3",
+        "text": "Object E is to the left of Object G.",
+        "value": true,
+        "labels": [
+          "E",
+          "G"
+        ],
+        "evidence": "The leftmost tall pole stands far left of the third tall pole."
+      },
+      {
+        "id": "p4",
+        "text": "Object A is above Object C.",
+        "value": false,
+        "labels": [
+          "A",
+          "C"
+        ],
+        "evidence": "The pink-lit boat is on the water below the gateway."
+      },
+      {
+        "id": "p5",
+        "text": "Object C is illuminated predominantly green.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The gateway is illuminated in warm yellow and gold tones."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has pink lights along its roof.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The central boat has a bright pink-lit roof outline."
+      },
+      {
+        "id": "p7",
+        "text": "Object I is below Object C.",
+        "value": true,
+        "labels": [
+          "I",
+          "C"
+        ],
+        "evidence": "The broad staircase descends beneath the arched gateway."
+      },
+      {
+        "id": "p8",
+        "text": "Object F is horizontally oriented.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The second pole extends vertically from the waterfront toward the sky."
+      },
+      {
+        "id": "p9",
+        "text": "Object H is to the left of Object F.",
+        "value": false,
+        "labels": [
+          "H",
+          "F"
+        ],
+        "evidence": "The fourth pole is far right of the second pole."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a roof.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A pale illuminated canopy covers the right-hand boat."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 44,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D has metal tines.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The fork above the upper plate has several visible metallic tines."
+      },
+      {
+        "id": "p2",
+        "text": "Object A has a triangular wedge shape.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The upper cake slice narrows to a point and has a wedge-shaped top."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has a dark topping.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A dark layer covers the top of the upper cake slice."
+      },
+      {
+        "id": "p4",
+        "text": "Object B is above Object D.",
+        "value": false,
+        "labels": [
+          "B",
+          "D"
+        ],
+        "evidence": "The lower-left dessert is well below the fork."
+      },
+      {
+        "id": "p5",
+        "text": "Object E is to the right of Object B.",
+        "value": true,
+        "labels": [
+          "E",
+          "B"
+        ],
+        "evidence": "The white napkins are at the far right of the lower-left dessert."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is resting on a blue plate.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Its long rectangular platter is brown-gray, not blue."
+      },
+      {
+        "id": "p7",
+        "text": "Object D is to the right of Object E.",
+        "value": false,
+        "labels": [
+          "D",
+          "E"
+        ],
+        "evidence": "The fork is in the upper middle-left; the napkins are at the far right."
+      },
+      {
+        "id": "p8",
+        "text": "Object C is longer than it is wide.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The rolled item is very elongated relative to its width."
+      },
+      {
+        "id": "p9",
+        "text": "Object E is predominantly black.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The visible napkins are white."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a pale yellow topping.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The lower-left dessert has a light yellow cream-like topping."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 45,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D is to the right of Object E.",
+        "value": false,
+        "labels": [
+          "D",
+          "E"
+        ],
+        "evidence": "The green package's center is left of the mug's center."
+      },
+      {
+        "id": "p2",
+        "text": "Object A is cylindrical.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The open carton has a box-like rectangular form."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has open top flaps.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The cracker carton has several top flaps standing open."
+      },
+      {
+        "id": "p4",
+        "text": "Object D has a green exterior.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The uppermost ALOHA package is green."
+      },
+      {
+        "id": "p5",
+        "text": "Object E has a visible handle.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The white mug's handle extends to the right."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is spherical.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The peppermint carton is a rectangular box with flat faces."
+      },
+      {
+        "id": "p7",
+        "text": "Object E is to the left of Object A.",
+        "value": false,
+        "labels": [
+          "E",
+          "A"
+        ],
+        "evidence": "The mug is at the far right, while A is the large carton at the left."
+      },
+      {
+        "id": "p8",
+        "text": "Object B has a predominantly green exterior.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The rooster carton is brown and white with a dark lower band."
+      },
+      {
+        "id": "p9",
+        "text": "Object C is above Object B.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The red-topped carton is in front and lower than the upright rooster carton."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a rooster illustration.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A dark rooster is printed prominently on the upright brown carton."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 46,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B is to the right of Object D.",
+        "value": false,
+        "labels": [
+          "B",
+          "D"
+        ],
+        "evidence": "The sunglasses are well left of the scissors."
+      },
+      {
+        "id": "p2",
+        "text": "Object A is above Object D.",
+        "value": true,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The handled carrier is high at the left; the scissors are lower at the right."
+      },
+      {
+        "id": "p3",
+        "text": "Object C is multicolored.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The small ball has visible red, green, and yellow sections."
+      },
+      {
+        "id": "p4",
+        "text": "Object C is a rectangular box.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "C is a small rounded ball rather than a box."
+      },
+      {
+        "id": "p5",
+        "text": "Object D has entirely red handles.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The visible handles are gray with yellow inner grips."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has handle cutouts.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Open hand holes are visible in the raised cardboard tabs."
+      },
+      {
+        "id": "p7",
+        "text": "Object D has visible blades.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The scissors' metal blades extend above the handles."
+      },
+      {
+        "id": "p8",
+        "text": "Object A is predominantly black.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The carrier is white and pale lavender."
+      },
+      {
+        "id": "p9",
+        "text": "Object C is below Object D.",
+        "value": false,
+        "labels": [
+          "C",
+          "D"
+        ],
+        "evidence": "The ball is higher in the image than the scissors' center."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has an orange frame.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The sunglasses have a clearly orange frame surrounding dark lenses."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 47,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object B has rectangular windows.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "Several rectangular window openings are visible on the building walls."
+      },
+      {
+        "id": "p2",
+        "text": "Object E has rows of rectangular keys.",
+        "value": true,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The keyboard has multiple clearly visible rows of keys."
+      },
+      {
+        "id": "p3",
+        "text": "Object D has an attached visible cord.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "A dark cable extends from the mouse toward the right edge."
+      },
+      {
+        "id": "p4",
+        "text": "Object E is below Object B.",
+        "value": false,
+        "labels": [
+          "E",
+          "B"
+        ],
+        "evidence": "The keyboard lies high in the upper-right background, above the smaller building's center."
+      },
+      {
+        "id": "p5",
+        "text": "Object D has a predominantly green body.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The mouse is black and silver-gray."
+      },
+      {
+        "id": "p6",
+        "text": "Object C is to the left of Object B.",
+        "value": false,
+        "labels": [
+          "C",
+          "B"
+        ],
+        "evidence": "The castle model is well right of the smaller building model."
+      },
+      {
+        "id": "p7",
+        "text": "Object A has a yellow body.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The tall can's main printed body is bright yellow."
+      },
+      {
+        "id": "p8",
+        "text": "Object C has pointed towers.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "Several castle towers terminate in pointed blue or gold spires."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is below Object D.",
+        "value": false,
+        "labels": [
+          "A",
+          "D"
+        ],
+        "evidence": "The can's center is higher than the mouse's center."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a black base.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The smaller building stands on a visible black display base."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 48,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D is above Object C.",
+        "value": false,
+        "labels": [
+          "D",
+          "C"
+        ],
+        "evidence": "The bench's center is lower in the image than the center of the tall illuminated lamppost."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is below Object A.",
+        "value": false,
+        "labels": [
+          "C",
+          "A"
+        ],
+        "evidence": "The lamppost's center is high behind the scooter, whose center is in the foreground."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has visible wheels.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Both the front and rear scooter wheels are visible."
+      },
+      {
+        "id": "p4",
+        "text": "Object A has its handlebars below its front wheel.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The handlebar assembly is high above the scooter's front wheel."
+      },
+      {
+        "id": "p5",
+        "text": "Object A is to the left of Object B.",
+        "value": true,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The scooter occupies the left and center foreground, while the rack is at the right."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has a bright pink body.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The scooter's visible frame is dark gray and black."
+      },
+      {
+        "id": "p7",
+        "text": "Object B is made of wooden planks.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The rack has smooth rounded metal tubes rather than wooden planks."
+      },
+      {
+        "id": "p8",
+        "text": "Object D is to the right of Object B.",
+        "value": false,
+        "labels": [
+          "D",
+          "B"
+        ],
+        "evidence": "The bench is beside the path at the left, far left of the rack."
+      },
+      {
+        "id": "p9",
+        "text": "Object C has an illuminated lamp.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The tall central lamppost has a bright glowing lamp at its top."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has curved metal bars.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The bicycle rack is formed from silver-gray metal tubing bent into large curves."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 49,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D has a predominantly green body.",
+        "value": false,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The second robot's main body is blue."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has a circular outer outline.",
+        "value": false,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The box has a rectangular outline."
+      },
+      {
+        "id": "p3",
+        "text": "Object F is a cylindrical bottle.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "F is an articulated toy robot with a torso, head, arms, and legs."
+      },
+      {
+        "id": "p4",
+        "text": "Object F has both arms raised above its head.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The rightmost robot's arms point upward and its red hands are above its head."
+      },
+      {
+        "id": "p5",
+        "text": "Object E is to the right of Object F.",
+        "value": false,
+        "labels": [
+          "E",
+          "F"
+        ],
+        "evidence": "The third robot is left of the rightmost robot."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has a transparent body.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The bottle's clear sides reveal its interior and background tones."
+      },
+      {
+        "id": "p7",
+        "text": "Object C has a blue torso.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The leftmost toy robot's torso is predominantly blue."
+      },
+      {
+        "id": "p8",
+        "text": "Object G has transparent walls.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The tray has clear walls through which the colored pushpins can be seen."
+      },
+      {
+        "id": "p9",
+        "text": "Object A is to the right of Object B.",
+        "value": false,
+        "labels": [
+          "A",
+          "B"
+        ],
+        "evidence": "The bottle stands left of the black box."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has white printed lines.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A white node-and-line illustration is visible on the black box."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 50,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object F has an orange body.",
+        "value": false,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The middle bollard is dark gray, unlike the orange posts farther right."
+      },
+      {
+        "id": "p2",
+        "text": "Object I has white horizontal bands.",
+        "value": true,
+        "labels": [
+          "I"
+        ],
+        "evidence": "White bands cross the middle orange delineator post."
+      },
+      {
+        "id": "p3",
+        "text": "Object A has glass window panels.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "Transparent and reflective window panels run along the elevated walkway."
+      },
+      {
+        "id": "p4",
+        "text": "Object H is to the left of Object K.",
+        "value": true,
+        "labels": [
+          "H",
+          "K"
+        ],
+        "evidence": "The leftmost orange delineator stands well left of the far-right cone."
+      },
+      {
+        "id": "p5",
+        "text": "Object E is to the right of Object G.",
+        "value": false,
+        "labels": [
+          "E",
+          "G"
+        ],
+        "evidence": "The leftmost gray bollard stands left of the rightmost gray bollard."
+      },
+      {
+        "id": "p6",
+        "text": "Object D has a gray exterior.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The visible hydrant body is gray under the foreground lighting."
+      },
+      {
+        "id": "p7",
+        "text": "Object C is below Object J.",
+        "value": false,
+        "labels": [
+          "C",
+          "J"
+        ],
+        "evidence": "The tall lamppost's center is higher than the short orange delineator's center."
+      },
+      {
+        "id": "p8",
+        "text": "Object J is lying horizontally.",
+        "value": false,
+        "labels": [
+          "J"
+        ],
+        "evidence": "The rightmost orange delineator is upright."
+      },
+      {
+        "id": "p9",
+        "text": "Object K has a conical body.",
+        "value": true,
+        "labels": [
+          "K"
+        ],
+        "evidence": "The orange cone widens from a narrow tip toward its base."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has an illuminated lamp.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The smaller lamppost at left has a bright glowing lamp."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 51,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object O is a rectangular paper box.",
+        "value": false,
+        "labels": [
+          "O"
+        ],
+        "evidence": "O is a small rounded multicolored ball."
+      },
+      {
+        "id": "p2",
+        "text": "Object B has red fabric.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "The soft bag on the floor is visibly red."
+      },
+      {
+        "id": "p3",
+        "text": "Object D is above Object E.",
+        "value": true,
+        "labels": [
+          "D",
+          "E"
+        ],
+        "evidence": "The microwave sits on top of the small refrigerator."
+      },
+      {
+        "id": "p4",
+        "text": "Object N has a floral pattern.",
+        "value": true,
+        "labels": [
+          "N"
+        ],
+        "evidence": "The front paper plate shows brightly colored flowers and leaves."
+      },
+      {
+        "id": "p5",
+        "text": "Object F is below Object N.",
+        "value": false,
+        "labels": [
+          "F",
+          "N"
+        ],
+        "evidence": "The tall refrigerator is in the upper-right background; the plate is near the bottom edge."
+      },
+      {
+        "id": "p6",
+        "text": "Object I has a predominantly green paper exterior.",
+        "value": false,
+        "labels": [
+          "I"
+        ],
+        "evidence": "The large front bag is white with orange printing."
+      },
+      {
+        "id": "p7",
+        "text": "Object A has predominantly blue netting.",
+        "value": false,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The netting on the left frame is bright yellow."
+      },
+      {
+        "id": "p8",
+        "text": "Object H is a cup.",
+        "value": false,
+        "labels": [
+          "H"
+        ],
+        "evidence": "H is a soccer ball with a polygonal panel pattern."
+      },
+      {
+        "id": "p9",
+        "text": "Object T is below Object N.",
+        "value": false,
+        "labels": [
+          "T",
+          "N"
+        ],
+        "evidence": "The pen cup is at the back of the table, substantially higher in the image than the floral plate."
+      },
+      {
+        "id": "p10",
+        "text": "Object G has black upholstery.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The sofa's seats, arms, and back are covered in black upholstery."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 52,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object N has a purple cover.",
+        "value": false,
+        "labels": [
+          "N"
+        ],
+        "evidence": "The frontmost book is orange; purple books lie separately underneath or behind it."
+      },
+      {
+        "id": "p2",
+        "text": "Object F has a blue domed top.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The cylindrical robot model has a rounded blue-and-white dome."
+      },
+      {
+        "id": "p3",
+        "text": "Object L is to the left of Object I.",
+        "value": false,
+        "labels": [
+          "L",
+          "I"
+        ],
+        "evidence": "The arcade model is to the right of the gray spacecraft model."
+      },
+      {
+        "id": "p4",
+        "text": "Object J has a predominantly blue body.",
+        "value": false,
+        "labels": [
+          "J"
+        ],
+        "evidence": "The hand-shaped model is predominantly red."
+      },
+      {
+        "id": "p5",
+        "text": "Object H is below Object M.",
+        "value": false,
+        "labels": [
+          "H",
+          "M"
+        ],
+        "evidence": "The green-roofed building model is on the middle shelf, above the rover on the bottom shelf."
+      },
+      {
+        "id": "p6",
+        "text": "Object A has model balloons attached above it.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "A cluster of colorful model balloons rises above the small house."
+      },
+      {
+        "id": "p7",
+        "text": "Object G depicts a clock face.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The framed artwork depicts a large question-mark shape rather than a clock face."
+      },
+      {
+        "id": "p8",
+        "text": "Object K has a green body.",
+        "value": true,
+        "labels": [
+          "K"
+        ],
+        "evidence": "The typewriter model's main casing is green."
+      },
+      {
+        "id": "p9",
+        "text": "Object M has visible wheels.",
+        "value": true,
+        "labels": [
+          "M"
+        ],
+        "evidence": "Multiple black wheels are visible on the white rover model."
+      },
+      {
+        "id": "p10",
+        "text": "Object C has a black frame.",
+        "value": true,
+        "labels": [
+          "C"
+        ],
+        "evidence": "A thick black rectangular frame surrounds the starry-night model."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 53,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object G has a white lid.",
+        "value": true,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The blue cylindrical bin has a clearly white circular lid."
+      },
+      {
+        "id": "p2",
+        "text": "Object C is below Object F.",
+        "value": false,
+        "labels": [
+          "C",
+          "F"
+        ],
+        "evidence": "The rear-wall map is substantially higher in the image than the foreground blue bin."
+      },
+      {
+        "id": "p3",
+        "text": "Object I has multiple disposal openings.",
+        "value": true,
+        "labels": [
+          "I"
+        ],
+        "evidence": "Several distinct openings are visible along the top of the sorting station."
+      },
+      {
+        "id": "p4",
+        "text": "Object H is to the left of Object I.",
+        "value": true,
+        "labels": [
+          "H",
+          "I"
+        ],
+        "evidence": "The small black bin is left of the connected waste-sorting station."
+      },
+      {
+        "id": "p5",
+        "text": "Object H has a blue body.",
+        "value": false,
+        "labels": [
+          "H"
+        ],
+        "evidence": "The small bin between G and I is black."
+      },
+      {
+        "id": "p6",
+        "text": "Object F has a blue body.",
+        "value": true,
+        "labels": [
+          "F"
+        ],
+        "evidence": "The large foreground wheeled bin is blue."
+      },
+      {
+        "id": "p7",
+        "text": "Object B is to the right of Object D.",
+        "value": false,
+        "labels": [
+          "B",
+          "D"
+        ],
+        "evidence": "The narrow Africa map is on the left side of the room; D is on the far right."
+      },
+      {
+        "id": "p8",
+        "text": "Object E has a circular frame.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The leaning map has a straight-edged rectangular frame."
+      },
+      {
+        "id": "p9",
+        "text": "Object A has a rectangular frame.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The large left map is enclosed by a rectangular dark frame."
+      },
+      {
+        "id": "p10",
+        "text": "Object D contains a printed map.",
+        "value": true,
+        "labels": [
+          "D"
+        ],
+        "evidence": "The upper-right framed sheet visibly depicts a map with land and water."
+      }
+    ],
+    "review_status": "human_verified"
+  },
+  {
+    "image_index": 54,
+    "atoms": [
+      {
+        "id": "p1",
+        "text": "Object D is below Object M.",
+        "value": false,
+        "labels": [
+          "D",
+          "M"
+        ],
+        "evidence": "The clock is on the top ledge, while M is among the lower notices."
+      },
+      {
+        "id": "p2",
+        "text": "Object F is to the right of Object J.",
+        "value": false,
+        "labels": [
+          "F",
+          "J"
+        ],
+        "evidence": "The black poster is in the middle-left, far left of the housing poster."
+      },
+      {
+        "id": "p3",
+        "text": "Object N lies flat against the board.",
+        "value": false,
+        "labels": [
+          "N"
+        ],
+        "evidence": "The right-hand paper visibly curls outward and casts a broad shadow."
+      },
+      {
+        "id": "p4",
+        "text": "Object I has orange areas on its face.",
+        "value": true,
+        "labels": [
+          "I"
+        ],
+        "evidence": "Large orange areas are visible in the printed HackGT design."
+      },
+      {
+        "id": "p5",
+        "text": "Object A has a purple face.",
+        "value": true,
+        "labels": [
+          "A"
+        ],
+        "evidence": "The circular plaque on the upper ledge has a purple front."
+      },
+      {
+        "id": "p6",
+        "text": "Object G is a circular sheet.",
+        "value": false,
+        "labels": [
+          "G"
+        ],
+        "evidence": "The reading-group notice is a rectangular paper sheet."
+      },
+      {
+        "id": "p7",
+        "text": "Object K is below Object J.",
+        "value": true,
+        "labels": [
+          "K",
+          "J"
+        ],
+        "evidence": "The career-fair sheet is lower on the board than the housing sheet."
+      },
+      {
+        "id": "p8",
+        "text": "Object E has a predominantly blue background.",
+        "value": false,
+        "labels": [
+          "E"
+        ],
+        "evidence": "The Vibe Write poster has a white background."
+      },
+      {
+        "id": "p9",
+        "text": "Object C has a circular outline.",
+        "value": false,
+        "labels": [
+          "C"
+        ],
+        "evidence": "The small white plaque on the ledge has a square outline."
+      },
+      {
+        "id": "p10",
+        "text": "Object B has a visible handle.",
+        "value": true,
+        "labels": [
+          "B"
+        ],
+        "evidence": "A loop-shaped handle is visible on the left side of the clear mug."
+      }
+    ],
+    "review_status": "human_verified"
+  }
+]
